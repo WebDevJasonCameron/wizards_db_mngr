@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/00_ct_sources.sql" value="9972c436-d6c0-48f9-9043-ce968fa7e953" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/01_ct_items.sql" value="9972c436-d6c0-48f9-9043-ce968fa7e953" />
+    <file url="file://$PROJECT_DIR$/sql/99_dlt_all.sql" value="9972c436-d6c0-48f9-9043-ce968fa7e953" />
+    <file url="file://$PROJECT_DIR$/sql/99_dlt_all_sequences.sql" value="9972c436-d6c0-48f9-9043-ce968fa7e953" />
+  </component>
+</project>

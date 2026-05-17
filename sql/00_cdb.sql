@@ -1,0 +1,3 @@
+CREATE DATABASE wizards_db;
+GRANT ALL PRIVILEGES ON DATABASE wizards_db TO smash;
+
