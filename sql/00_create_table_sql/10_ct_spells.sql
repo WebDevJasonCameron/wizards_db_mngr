@@ -3,7 +3,6 @@ CREATE SEQUENCE IF NOT EXISTS spell_seq start 1;
 CREATE TABLE IF NOT EXISTS spells(
                         id BIGINT NOT NULL DEFAULT nextval('spell_seq'),
                         spell_name VARCHAR(255) NOT NULL UNIQUE,
-                        spell_ttrpg BIGINT,
                         spell_level VARCHAR(255),
                         spell_casting_time VARCHAR(255),
                         spell_range_area VARCHAR(255),
@@ -21,10 +20,6 @@ CREATE TABLE IF NOT EXISTS spells(
                         spell_created_at TIMESTAMP NOT NULL DEFAULT NOW(),
                         spell_updated_at TIMESTAMP,
 
-                        spell_source_id BIGINT,
-
-                        FOREIGN KEY (spell_ttrpg) REFERENCES ttrpgs(id),
-                        FOREIGN KEY (spell_source_id) REFERENCES sources(id),
                         PRIMARY KEY (id)
 );
 

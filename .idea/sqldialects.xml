@@ -4,37 +4,37 @@
     <file url="file://$PROJECT_DIR$/sql/00_cdb.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/00_ct_sources.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/01_ct_items.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/02_ct_images_urls.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/03_ct_tags.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/04_ct_conditions.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/05_ct_types.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/06_ ct_damagetypes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/07_ct_effects.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/08_ct_ttrpgs.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/09_ct_rpg_classes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/10_ct_spells.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/21_ct_item_types.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/22_ct_item_tags.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/24_ct_item_conditions.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/28_ct_item_effects.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/32_ct_spell_tags.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/34_ct_spell_conditions.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/35_ct_spell_damagetypes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/36_ct_spell_classes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/37_ct_spell_ttrpgs.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/38_ct_spell_sources.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/39_ct_spell_image_urls.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/40_ct_accounts.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/41_ct_users.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/42_ct_wishlists.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/43_ct_products.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/44_ct_likes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/45_ct_item_image_urls.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/47_ct_product_image_urls.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/48_ct_user_image_urls.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/49_ct_item_spells.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/50_ct_notes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/51_ct_item_notes.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/02_ct_images_urls.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/03_ct_tags.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/04_ct_conditions.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/05_ct_types.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/06_ ct_damagetypes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/07_ct_effects.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/08_ct_ttrpgs.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/09_ct_rpg_classes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/10_ct_spells.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/21_ct_item_types.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/22_ct_item_tags.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/24_ct_item_conditions.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/28_ct_item_effects.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/32_ct_spell_tags.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/34_ct_spell_conditions.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/35_ct_spell_damagetypes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/36_ct_spell_classes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/37_ct_spell_ttrpgs.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/38_ct_spell_sources.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/39_ct_spell_image_urls.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/40_ct_accounts.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/41_ct_users.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/42_ct_wishlists.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/43_ct_products.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/44_ct_likes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/45_ct_item_image_urls.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/47_ct_product_image_urls.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/48_ct_user_image_urls.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/49_ct_item_spells.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/50_ct_notes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/51_ct_item_notes.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/00_insert_sources.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/01_insert_types.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/02_insert_tags.sql" dialect="GenericSQL" />
