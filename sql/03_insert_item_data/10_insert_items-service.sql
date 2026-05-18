@@ -1,11 +1,10 @@
 INSERT INTO items (
+    --                    2, 7 (6), last
     item_name,
-    item_ttrpg,
     item_weight,
     item_cost,
     item_description,
     item_description_notes,
-    item_source,
     item_rarity,
     item_renowned_quality,
 
@@ -25,11 +24,9 @@ INSERT INTO items (
     item_armor_class,
     item_armor_notes,
 
-    item_image_url,
-    item_source_id)
+    item_image_url)
 VALUES (
         'Barding',
-        1,
         null,
         null,
         'Barding is armor designed to protect an animal’s head, neck, chest, and body. Any type of armor can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.
@@ -51,7 +48,6 @@ VALUES (
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -69,6 +65,5 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        )

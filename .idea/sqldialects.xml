@@ -35,37 +35,37 @@
     <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/49_ct_item_spells.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/50_ct_notes.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/00_create_table_sql/51_ct_item_notes.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/00_insert_sources.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/01_insert_types.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/02_insert_tags.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/00_insert_sources.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/01_insert_types.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/02_insert_tags.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/03_insert_notes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/04_insert_conditions.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/05_insert_damagetypes.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/04_insert_conditions.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/05_insert_damagetypes.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/07_insert_image_urls.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/08_insert_effects.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/09_insert_rpg_classes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/10_insert_ttrpg.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/08_insert_effects.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/09_insert_rpg_classes.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/10_insert_ttrpg.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/40_insert_users.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/41_insert_accounts.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/01_insert_meta_data/50_insert_products.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/02_insert_spell_data/00_insert_spells.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/02_insert_spell_data/00_insert_spells.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/02_insert_spell_data/01_insert_spell_tags.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/02_insert_spell_data/02_insert_spell_conditions.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/02_insert_spell_data/03_insert_spell_damagetype.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/02_insert_spell_data/04_insert_spell_classes.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/01_insert_items-armor.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/02_insert_items-book.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/03_insert_items-consumable.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/04_insert_items-gear.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/05_insert_items-instrument.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/06_insert_items-jewelry.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/07_insert_items-mount.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/08_insert_items-object.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/09_insert_items-potion.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/10_insert_items-service.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/11_insert_items-tool.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/01_insert_items-armor.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/02_insert_items-book.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/03_insert_items-consumable.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/04_insert_items-gear.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/05_insert_items-instrument.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/06_insert_items-jewelry.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/07_insert_items-mount.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/08_insert_items-object.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/09_insert_items-potion.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/10_insert_items-service.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/11_insert_items-tool.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/12_insert_items-vehicle.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/13_insert_items-weapon.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/13_insert_items-weapon.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/31_insert_item_types.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/32_insert_item_tags.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/sql/03_insert_item_data/33_insert_item_notes.sql" dialect="GenericSQL" />

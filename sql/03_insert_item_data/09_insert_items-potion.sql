@@ -1,11 +1,10 @@
 INSERT INTO items (
+    --                    2, 7 (6), last
     item_name,
-    item_ttrpg,
     item_weight,
     item_cost,
     item_description,
     item_description_notes,
-    item_source,
     item_rarity,
     item_renowned_quality,
 
@@ -25,17 +24,14 @@ INSERT INTO items (
     item_armor_class,
     item_armor_notes,
 
-    item_image_url,
-    item_source_id)
+    item_image_url)
 VALUES
     (
     'Potion of Clairvoyance',
-    1,
     null,
     null,
     'When you drink this potion, you gain the Effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.',
     'Scrying, Detection, Consumable',
-    'Dungeon Master’s Guide, pg. 187',
     'rare',
     null,
 
@@ -55,18 +51,15 @@ VALUES
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Potion of Vitality',
-    1,
     null,
     null,
     'When you drink this potion, it removes any Exhaustion levels you have and ends the Poisoned condition on you. For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend.
        This potion’s crimson liquid regularly pulses with dull light, calling to mind a heartbeat.',
     'Cures Disease, Removes Poison, Max HP from Hit Dice, Healing, Consumable',
-    'Dungeon Master’s Guide, pg. 188',
     'very rare',
     null,
 
@@ -86,18 +79,15 @@ VALUES
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Potion of Diminution',
-    1,
     null,
     null,
     'When you drink this potion, you gain the “reduce” effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required).
        The red in the potion’s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.',
     'Control, Utility, Consumable',
-    'Dungeon Master’s Guide, pg. 187',
     'rare',
     null,
 
@@ -117,17 +107,14 @@ VALUES
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Potion of Force Resistance',
-    1,
     null,
     null,
     'When you drink this potion, you gain resistance to force damage for 1 hour.',
     'Resistance: Force, Warding, Consumable',
-    null,
     'uncommon',
     null,
 
@@ -147,17 +134,14 @@ VALUES
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Potion of Water Breathing',
-    1,
     null,
     null,
     'You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.',
     'breathe underwater, buff, utility, consumable',
-    null,
     'uncommon',
     null,
 
@@ -177,16 +161,13 @@ VALUES
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
      'Potion of Invisibility',
-     1,
      null, null,
      'This potion''s container looks empty but feels as though it holds liquid. When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell.',
      'Invisible, Deception, Consumable',
-     'Basic Rules (2014), pg. 188',
      'very rare',
      null,
 
@@ -206,18 +187,15 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potion of Climbing',
-     1,
      null,
      null,
      'When you drink this potion, you gain a Climb Speed equal to your Speed for 1 hour. During this time, you have Advantage on Strength (Athletics) checks to climb.
         This potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.',
      'Set: Innate Speed (Climbing), Advantage: Athletics, Buff, Movement, Consumable',
-     'Dungeon Master’s Guide, pg. 187',
      'common',
      null,
 
@@ -237,12 +215,10 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potions of Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to one type of damage for 1 hour. The DM chooses the type or determines it randomly from the options below.
@@ -259,7 +235,6 @@ VALUES
             | 9   | Potion of Resistance - Radiant   |
             | 10  | Potion of Resistance - Thunder   |',
      'Resistance: Acid, Resistance: Cold, Resistance: Fire, Resistance: Force, Resistance: Lightning, Resistance: Necrotic, Resistance: Poison, Resistance: Psychic, Resistance: Radiant, Resistance: Thunder, Warding, Consumable',
-     'Dungeon Master’s Guide, pg. 188',
      'common',
      null,
 
@@ -279,17 +254,14 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
         'Potion of Acid Resistance',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to acid damage for 1 hour.',
         'Resistance: Acid, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -309,18 +281,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
 
     (
         'Potion of Cold Resistance',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to cold damage for 1 hour.',
         'Resistance: Cold, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -340,17 +309,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Fire Resistance',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to fire damage for 1 hour.',
         'Resistance: Fire, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -370,18 +336,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
 
     (
         'Potion of Force Resistance',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to force damage for 1 hour.',
         'Resistance: Force, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -401,17 +364,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Lightning Resistance',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to lightning damage for 1 hour..',
         'Resistance: Lightning, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -431,17 +391,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Poison Resistance ',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to poison damage for 1 hour.',
         'Resistance: Poison, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -461,17 +418,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Psychic Resistance ',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to psychic damage for 1 hour.',
         'Resistance: Psychic, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -491,17 +445,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Radiant Resistance',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to radiant damage for 1 hour.',
         'Resistance: Radiant, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -521,17 +472,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Poison Resistance',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to poison damage for 1 hour.',
         'Resistance: Poison, Warding, Consumable',
-        null,
         'common',
         null,
 
@@ -551,17 +499,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Thunder Resistance ',
-        1,
         null,
         null,
         'When you drink this potion, you gain resistance to thunder damage for 1 hour.',
         'Resistance: Thunder, Warding, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -581,18 +526,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Gaseous Form',
-        1,
         null,
         null,
         'When you drink this potion, you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action.
            This potion’s container seems to hold fog that moves and pours like water.',
         'Movement, Utility, Warding, Consumable',
-        'Dungeon Master’s Guide, pg. 187',
         'rare',
         null,
 
@@ -612,18 +554,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
      'Potion of Heroism',
-     1,
      null,
      null,
      'When you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).
             This potion’s blue liquid bubbles and steams as if boiling.',
      'Bonus: Temporary Hit Points, Healing, Buff, Consumable',
-     'Dungeon Master’s Guide, pg. 188',
      'rare',
      null,
 
@@ -643,17 +582,14 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potion of Speed',
-     1,
      null,
      null,
      'When you drink this potion, you gain the effect of the haste spell for 1 minute (no concentration required). The potion''s yellow fluid is streaked with black and swirls on its own.',
      'Buff, Movement, Consumable',
-     'Basic Rules (2014), pg. 188',
      'very rare',
      null,
 
@@ -673,19 +609,16 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Antitoxin',
-     1,
      null,
      '50 gp',
      'As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.',
      null,
      null,
      null,
-     null,
 
      true,
      false,
@@ -703,19 +636,16 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potion of Fire Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to fire damage for 1 hour.',
      'Resistance: Fire, Warding, Consumable',
      null,
      null,
-     null,
 
      true,
      false,
@@ -733,12 +663,10 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Potions of Healing',
-     1,
      null,
      null,
      'You regain Hit Points when you drink this potion. The number of Hit Points depends on the potion’s rarity, as shown in the table below.
@@ -750,7 +678,6 @@ VALUES
             | Potion of Healing (Superior) | 8d4 + 8 | Rare |
             | Potion of Healing (Supreme) | 10d4 + 20 | Very Rare |',
      'Bonus: Hit Points, Healing, Consumable',
-     'Dungeon Master’s Guide, pg. 187',
      null,
      null,
 
@@ -770,17 +697,14 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
         'Potion of Healing',
-        1,
         '0.5 lb',
         null,
         'This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.',
         'Bonus: Hit Points',
-        'Dungeon Master’s Guide, pg. 228',
         'common',
         null,
 
@@ -800,18 +724,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Healing (Greater)',
-        1,
         '0.5 lb',
         null,
         'You regain 4d4 + 4 Hit Points when you drink this potion.
             Whatever its potency, the potion’s red liquid glimmers when agitated.',
         'Bonus: Hit Points, Healing, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -831,18 +752,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Healing (Superior)',
-        1,
         '0.5 lb',
         null,
         'You regain 8d4 + 8 Hit Points when you drink this potion.
                 Whatever its potency, the potion’s red liquid glimmers when agitated.',
         'Bonus: Hit Points, Healing, Consumable',
-        null,
         'rare',
         null,
 
@@ -862,18 +780,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Healing (Supreme)',
-        1,
         '0.5 lb',
         null,
         'You regain 10d4 + 20 Hit Points when you drink this potion.
             Whatever its potency, the potion’s red liquid glimmers when agitated.',
         'Bonus: Hit Points, Healing, Consumable',
-        null,
         'very rare',
         null,
 
@@ -893,17 +808,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
      'Potion of Psychic Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to psychic damage for 1 hour.',
      'Resistance: Psychic, Warding, Consumable',
-     null,
      'uncommon',
      null,
 
@@ -923,12 +835,10 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Potion of Giant Strength',
-     1,
      null,
      null,
      'When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.
@@ -943,7 +853,6 @@ VALUES
             | Potion of Cloud Giant Strength | 27 | Very Rare |
             | Potion of Storm Giant Strength | 29 | Legendary |',
      null,
-     'Dungeon Master’s Guide, pg. 187',
      null,
      null,
 
@@ -963,18 +872,15 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
         'Potion of Hill Giant Strength',
-        1,
         null,
         null,
         'When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
                This potion''s transparent liquid has floating in it a sliver of fingernail from a hill giant.',
         'Set: Strength Score, Buff, Consumable',
-        null,
         'uncommon',
         null,
 
@@ -994,18 +900,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Frost Giant Strength',
-        1,
         null,
         null,
         'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
             This potion''s transparent liquid has floating in it a sliver of fingernail from a frost giant.',
         'Set: Strength Score, Buff, Consumable',
-        null,
         'rare',
         null,
 
@@ -1025,18 +928,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Stone Giant Strength',
-        1,
         null,
         null,
         'When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
                This potion''s transparent liquid has floating in it a sliver of fingernail from a stone giant.',
         'Set: Strength Score, Buff, Consumable',
-        null,
         'rare',
         null,
 
@@ -1056,18 +956,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Fire Giant Strength',
-        1,
         null,
         null,
         'When you drink this potion, your Strength score changes to 25 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
             This potion''s transparent liquid has floating in it a sliver of fingernail from a fire giant.',
         'Set: Strength Score, Buff, Consumable',
-        null,
         'rare',
         null,
 
@@ -1087,18 +984,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Cloud Giant Strength',
-        1,
         null,
         null,
         'When you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
                 This potion''s transparent liquid has floating in it a sliver of fingernail from a cloud giant.',
         'Set: Strength Score, Buff, Consumable',
-        null,
         'very rare',
         null,
 
@@ -1118,18 +1012,15 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
         'Potion of Storm Giant Strength',
-        1,
         null,
         null,
         'When you drink this potion, your Strength score changes to 29 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
             This potion''s transparent liquid has floating in it a sliver of fingernail from a storm giant.',
         'Set: Strength Score, Buff, Consumable',
-        null,
         'legendary',
         null,
 
@@ -1149,17 +1040,14 @@ VALUES
         null,
         null,
 
-        null,
-        17
+        null
     ),
     (
      'Potion of Cold Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to cold damage for 1 hour.',
      'Resistance: Cold, Warding, Consumable',
-     null,
      'uncommon',
      null,
 
@@ -1179,17 +1067,14 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Potion of Acid Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to acid damage for 1 hour.',
      'Resistance: Acid, Warding, Consumable',
-     null,
      'uncommon',
      null,
 
@@ -1209,17 +1094,14 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Potion of Animal Friendship',
-     1,
      null,
      null,
      'When you drink this potion, you can cast the animal friendship spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.',
      'Control, Communication, Consumable',
-     'Basic Rules (2014), pg. 187',
      'uncommon',
      null,
 
@@ -1239,17 +1121,14 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potion of Necrotic Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to necrotic damage for 1 hour.',
      'Resistance: Necrotic, Warding, Consumable',
-     null,
      'uncommon',
      null,
 
@@ -1269,18 +1148,15 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Potion of Poison',
-     1,
      null,
      null,
      'This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.
             If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.',
      'Consumable, Cursed',
-     'Basic Rules (2014), pg. 188',
      'uncommon',
      null,
 
@@ -1300,17 +1176,14 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potion of Mind Reading',
-     1,
      null,
      null,
      'When you drink this potion, you gain the effect of the detect thoughts spell (save DC 13). The potion''s dense, purple liquid has an ovoid cloud of pink floating in it.',
      'Control, Detection, Consumable',
-     'Dungeon Master’s Guide, pg. 288',
      'rare',
 
      null,
@@ -1330,17 +1203,14 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potion of Lightning Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to lightning damage for 1 hour.',
      'Resistance: Lightning, Warding, Consumable',
-     null,
      'uncommon',
      null,
 
@@ -1360,17 +1230,14 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Potion of Thunder Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to lightning damage for 1 hour.',
      'Resistance: Lightning, Warding, Consumable',
-     null,
      'uncommon',
      null,
 
@@ -1390,17 +1257,14 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Potion of Poison Resistance',
-     1,
      null,
      null,
      'When you drink this potion, you gain resistance to poison damage for 1 hour.',
      'Resistance: Poison, Warding, Consumable',
-     null,
      'uncommon',
      null,
 
@@ -1420,17 +1284,14 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potion of Growth',
-     1,
      null,
      null,
      'When you drink this potion, you gain the “enlarge” effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion’s liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.',
      'Control, Utility, Consumable',
-     'Dungeon Master’s Guide, pg. 288',
      'uncommon',
      null,
 
@@ -1450,19 +1311,16 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Poisoner''s Kit',
-     1,
      '2 lb',
      '50 gp',
      'A poisoner''s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.',
      null,
      null,
      null,
-     null,
 
      false,
      false,
@@ -1480,19 +1338,16 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Acid (vial)',
-     1,
      '1 lb',
      '25 gp',
      'As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.',
      null,
      null,
      null,
-     null,
 
      false,
      false,
@@ -1510,18 +1365,15 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     ),
     (
      'Potion of Flying',
-     1,
      null,
      null,
      'When you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you’re in the air when the potion wears off, you fall unless you have some other means of staying aloft.
             This potion’s clear liquid floats at the top of its container and has cloudy white impurities drifting in it.',
      'Set: Innate Speed (Flying), Movement, Utility, Consumable',
-     'Dungeon Master’s Guide, pg. 187',
      'very rare',
      null,
 
@@ -1541,17 +1393,14 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
     ),
     (
      'Holy Water (flask)',
-     1,
      '1 lb',
      '25 gp',
      'As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.
             A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.',
-     null,
      null,
      null,
      null,
@@ -1572,6 +1421,5 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
     )

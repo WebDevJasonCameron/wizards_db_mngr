@@ -1,11 +1,10 @@
 INSERT INTO items (
+    --                    2, 7 (6), last
     item_name,
-    item_ttrpg,
     item_weight,
     item_cost,
     item_description,
     item_description_notes,
-    item_source,
     item_rarity,
     item_renowned_quality,
 
@@ -25,12 +24,10 @@ INSERT INTO items (
     item_armor_class,
     item_armor_notes,
 
-    item_image_url,
-    item_source_id)
+    item_image_url)
 VALUES
       (
           'Spell Scroll',
-          1,
           null,
           null,
           'A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn’t lost.
@@ -64,7 +61,6 @@ VALUES
                | 5 | The caster suffers a minor but bizarre effect related to the spell. Such effects last only as long as the original spell’s duration, or 1d10 minutes for spells that take effect instantaneously. For example, a fireball might cause smoke to billow from the caster’s ears for 1d10 minutes. |
                | 6 | The spell activates after 1d12 hours. If the caster was the intended target, the spell takes effect normally. If the caster was not the intended target, the spell goes off in the general direction of the intended target, up to the spell’s maximum range, if the target has moved away.',
           'Utility, Consumable',
-          'Basic Rules (2014), pg. 200',
           'varies',
           null,
 
@@ -84,18 +80,15 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (0 - Cantrip)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
                 This scroll contains a cantrip. The spell''s saving throw DC is 13 and attack bonus is +5.',
           'Utility, Consumable',
-          null,
           'common',
           null,
 
@@ -115,12 +108,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (1st Level)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -128,7 +119,6 @@ VALUES
                 This scroll contains a 1st level spell. The spell''s saving throw DC is 13 and attack bonus is +5.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 11. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           'Utility, Consumable',
-          null,
           'common',
           null,
 
@@ -148,12 +138,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (2nd Level)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -161,7 +149,6 @@ VALUES
                 This scroll contains a 2nd level spell. The spell''s saving throw DC is 13 and attack bonus is +5.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 12. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           'Utility, Consumable',
-          null,
           'common',
           null,
 
@@ -181,12 +168,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (3rd Leve)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -194,7 +179,6 @@ VALUES
                 This scroll contains a 3rd level spell. The spell''s saving throw DC is 15 and attack bonus is +7.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 13. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           'Utility, Consumable',
-          null,
           'uncommon',
           null,
 
@@ -214,12 +198,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (4th Level)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -227,7 +209,6 @@ VALUES
                 This scroll contains a 4th level spell. The spell''s saving throw DC is 15 and attack bonus is +7.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 14. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           'Utility, Consumable',
-          null,
           'rare',
           null,
 
@@ -247,12 +228,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (5th Level)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -260,7 +239,6 @@ VALUES
                 This scroll contains a 5th level spell. The spell''s saving throw DC is 17 and attack bonus is +9.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 15. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           null,
-          null,
           'rare',
           null,
 
@@ -280,12 +258,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (6th Level)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -293,7 +269,6 @@ VALUES
                 This scroll contains a 6th level spell. The spell''s saving throw DC is 17 and attack bonus is +9.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 16. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           'Utility, Consumable',
-          null,
           'very rare',
           null,
 
@@ -313,12 +288,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (7th Level)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -326,7 +299,6 @@ VALUES
                 This scroll contains a 7th level spell. The spell''s saving throw DC is 18 and attack bonus is +10.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 17. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           'Utility, Consumable',
-          null,
           'very rare',
           null,
 
@@ -346,12 +318,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (8th Level)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -359,7 +329,6 @@ VALUES
                 This scroll contains an 8th level spell. The spell''s saving throw DC is 18 and attack bonus is +10.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 18. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           'Utility, Consumable',
-          null,
           'very rare',
           null,
 
@@ -379,12 +348,10 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spell Scroll (9th Level)',
-          1,
           null,
           null,
           'A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.
@@ -392,7 +359,6 @@ VALUES
                 This scroll contains a 9th level spell. The spell''s saving throw DC is 19 and attack bonus is +11.
                 A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 19. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.',
           'Utility, Consumable',
-          null,
           'legendary',
           null,
 
@@ -412,17 +378,14 @@ VALUES
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Manual of Bodily Health',
-       1,
        null,
        null,
        'This book contains health and diet tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the booknulls contents and practicing its guidelines, your Constitution score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.',
        'Bonus: Constitution Score, Bonus: Ability Score Maximum, Buff',
-       'Dungeon Master’s Guide, pg. 180',
        'very rare',
        'Wondrous Item',
 
@@ -442,17 +405,14 @@ VALUES
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Manual of Gainful Exercise',
-       1,
        null,
        null,
        'This book describes fitness exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Strength increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.',
        'Bonus: Strength Score, Bonus: Ability Score Maximum, Buff',
-       'Dungeon Master’s Guide, pg. 180',
        'very rare',
        null,
 
@@ -472,19 +432,16 @@ VALUES
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Paper (one sheet)',
-       1,
        null,
        '2 sp',
        'A sheet of standard paper is made from cloth fibers.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -502,17 +459,14 @@ VALUES
        null,
        null,
 
-       null,
-       5
+       null
       ),
     (
      'Tome of Clear Thought',
-     1,
      null,
      null,
      'This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Intelligence increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.',
      'Bonus: Intelligence Score, Bonus: Ability Score Maximum, Buff',
-     'Dungeon Master’s Guide, pg. 208',
      'very rare',
      'Wondrous Item',
 
@@ -532,12 +486,10 @@ VALUES
      null,
      null,
 
-     null,
-     17
+     null
       ),
     (
      'Manual of Golems',
-     1,
      null,
      null,
      'This tome contains information and incantations necessary to make a particular type of golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
@@ -552,7 +504,6 @@ VALUES
 
             Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
      'Creation, Consumable',
-     'Dungeon Master’s Guide, pg. 180',
      'very rare',
      'Wondrous Item',
 
@@ -572,19 +523,16 @@ VALUES
      null,
      null,
 
-     null,
-     5
+     null
       ),
       (
           'Manual of clay Golems',
-          1,
           null,
           null,
           'This tome contains information and incantations necessary to make a clay golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
                 To create a clay golem, you must spend 30 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 65,000 gp to purchase supplies.
                 Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
           'Creation, Consumable',
-          null,
           'very rare',
           'Wondrous Item',
 
@@ -604,19 +552,16 @@ VALUES
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Manual of Flesh Golems',
-          1,
           null,
           null,
           'This tome contains information and incantations necessary to make a flesh golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
                    To create a flesh golem, you must spend 60 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 50,000 gp to purchase supplies.
                    Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
           'Creation, Consumable',
-          null,
           'very rare',
           'Wondrous Item',
 
@@ -636,19 +581,16 @@ VALUES
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Manual of Iron Golems',
-          1,
           null,
           null,
           'This tome contains information and incantations necessary to make a iron golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
                 To create an iron golem, you must spend 120 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 100,000 gp to purchase supplies.
                 Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
           'Creation, Consumable',
-          null,
           'very rare',
           'Wondrous Item',
 
@@ -668,19 +610,16 @@ VALUES
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Manual of Stone Golems',
-          1,
           null,
           null,
           'This tome contains information and incantations necessary to make a stone golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can''t use a manual of golems and attempts to read it takes 6d6 psychic damage.
                 To create a stone golem, you must spend 90 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 80,000 gp to purchase supplies.
                 Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.',
           'Creation, Consumable',
-          null,
           'very rare',
           'Wondrous Item',
 
@@ -700,17 +639,14 @@ VALUES
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
        'Manual of Quickness of Action',
-       1,
        null,
        null,
        'This book contains coordination and balance exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Dexterity increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.',
        'Bonus: Dexterity Score, Bonus: Ability Score Maximum, Buff',
-       'Dungeon Master’s Guide, pg. 181',
        'very rare',
        'Wondrous Item',
 
@@ -730,19 +666,16 @@ VALUES
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Spellbook',
-       1,
        '3 lb',
        '50 gp',
        'Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.',
        null,
        null,
        null,
-       null,
 
        true,
        false,
@@ -760,19 +693,16 @@ VALUES
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Book',
-       1,
        '5 lb',
        '25 gp',
        'A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -790,17 +720,14 @@ VALUES
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Tome of Leadership and Influence',
-       1,
        null,
        null,
        'This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Charisma increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.',
        'Bonus: Charisma Score, Bonus: Ability Score Maximum, Buff',
-       'Dungeon Master’s Guide, pg. 208',
        'very rare',
        'Wondrous Item',
 
@@ -820,19 +747,16 @@ VALUES
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Case, Map or Scroll',
-       1,
        '1 lb',
        '1 gp',
        'This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -850,6 +774,5 @@ VALUES
        null,
        null,
 
-       null,
-       5
+       null
       )

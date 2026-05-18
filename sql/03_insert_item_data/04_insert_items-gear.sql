@@ -1,11 +1,10 @@
 INSERT INTO items (
+    --                    2, 7 (6), last
     item_name,
-    item_ttrpg,
     item_weight,
     item_cost,
     item_description,
     item_description_notes,
-    item_source,
     item_rarity,
     item_renowned_quality,
 
@@ -25,16 +24,13 @@ INSERT INTO items (
     item_armor_class,
     item_armor_notes,
 
-    item_image_url,
-    item_source_id)
+    item_image_url)
 VALUES(
           'Scale, Merchant''s',
-          1,
           '3 lbs',
           '5 gp',
           'A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.',
           null,
-          'Basic Rules (2014)',
           null,
           null,
 
@@ -54,19 +50,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Tent, Two-Person',
-          1,
           '20 lbs',
           '2 gp',
           'A simple and portable canvas shelter, a tent sleeps two.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -84,17 +77,14 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Bottle, Glass',
-          1,
           '2 lbs',
           '2 gp',
           'A bottle can hold 1 1/2 pints of liquid.',
           null,
-          'Basic Rules (2014)',
           null,
           null,
 
@@ -114,17 +104,14 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Pick, Miner''s',
-          1,
           '10 lbs',
           '2 gp',
           'A miner''s pick is designed to concentrate the force of its blow on a small area.',
           null,
-          null,
           'common',
           null,
 
@@ -144,17 +131,14 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Saddle, Pack',
-          1,
           '15 lbs',
           '5 gp',
           'A standard saddle for a pack mount.',
           null,
-          null,
           'common',
           null,
 
@@ -175,17 +159,14 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Spikes, Iron (10)',
-          1,
           '5 lbs',
           '1 gp',
           'Standard iron spikes typically used with a hammer.',
           null,
-          null,
           'common',
           null,
 
@@ -205,19 +186,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Lamp',
-          1,
           '1 lb',
           '5 sp',
           'A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -235,19 +213,16 @@ VALUES(
           null,
           null,
 
-          null,
-          53
+          null
       ),
       (
           'Ball Bearings',
-          1,
           '2 lbs',
           '1 gp',
           'As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -265,19 +240,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Soap',
-          1,
           null,
           '2 cp',
           'A commodity used for bathing.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -295,19 +267,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Saddle, Military',
-          1,
           '30 lbs',
           '20 gp',
           'A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -325,19 +294,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Flask or Tankard',
-          1,
           '1 lb',
           '2 cp',
           'A flask or tankard can hold 1 pint of liquid.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -355,19 +321,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Rope Silk (50 feet)',
-          1,
           '5 lbs',
           '10 gp',
           'Rope, has 2 hit points and can be burst with a DC 17 Strength check.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -385,19 +348,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Basket',
-          1,
           null,
           null,
           'A basket can hold 2 cubic feet/40 pounds of gear.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -413,12 +373,10 @@ VALUES(
           null,
           null,
           null,
-          null,
-          5
+          null
       ),
       (
           'Backpack',
-          1,
           '5 lb',
           '2 gp',
           'A backpack is a leather pack carried on the back, typically with straps to secure it. A backpack can hold 1 cubic foot/ 30 pounds of gear.
@@ -426,7 +384,6 @@ VALUES(
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -444,19 +401,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Pole (10-foot)',
-          1,
           '7 lb',
           '10 sp',
           'When you suspect a trap, you can put the end of your 10-foot pole through that hole in the wall instead of reaching in with your hand.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -474,13 +428,11 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
 
       (
           'Bag of Holding',
-          1,
           '5 lb',
           null,
           'This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.
@@ -488,7 +440,6 @@ VALUES(
                Placing a bag of holding inside an extradimensional space created by a handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.
                *Capacity:* 500lb.',
           'Utility, Container',
-          'Dungeon Master’s Guide, pg. 234',
           'uncommon',
           'Wondrous Item',
 
@@ -508,19 +459,16 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Three-Dragon Ante Set',
-          1,
           null,
           '1 gp',
           'If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -538,19 +486,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Mirror, Steel',
-       1,
        '0.5 lb',
        '5 gp',
        'A steel mirror is handy when you want to look around corners, signal friends with reflected sunlight, keep an eye on a medusa, make sure that you look good enough to present yourself to the queen, or examine wounds that you’ve received on hard-to-see parts of your body.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -568,12 +513,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
     (
          'Iron Flask',
-         1,
          null,
          null,
          'This iron bottle has a brass stopper. You can use an action to speak the flask''s command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one you''re on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn''t need to breathe, eat, or drink and doesn''t age.
@@ -597,7 +540,6 @@ VALUES(
             | 73-74 | Djinni | 99 | Ultroloth |
             | 75-76 | Efreeti | 00 | Xorn |',
          'Control',
-         'Dungeon Master’s Guide, pg. 274',
          'legendary',
          'Wondrous Item',
          true,
@@ -616,16 +558,13 @@ VALUES(
          null,
          null,
 
-         null,
-         5
+         null
       ),
       (
        'Vial',
-       1,
        null,
        '1 gp',
        'A vial can hold 4 ounces of liquid.',
-       null,
        null,
        null,
        null,
@@ -646,19 +585,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Case, Crossbow Bolt',
-       1,
        '1 lb',
        '1 gp',
        'This wooden case can hold up to twenty crossbow bolts.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -676,19 +612,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Saddle, Riding',
-       1,
        '25 lb',
        '10 gp',
        'A standard saddle for a riding mount.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -706,19 +639,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Rod',
-       1,
        '2 lb',
        '10 gp',
        'An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -736,19 +666,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Ram, Portable',
-       1,
        '35 lb',
        '4 gp',
        'You can use a portable ram to break down doors.  When doing so, you gain a +4 bonus on the Strength check.  One other character can help you use the ram, giving you advantage on this check.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -766,19 +693,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Lantern, Hooded',
-       1,
        '2 lb',
        '5 gp',
        'A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -796,19 +720,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Sack',
-       1,
        '1/2 lb',
        '1 cp',
        'A sack can hold 1 cubic foot/ 30 pounds of gear.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -826,12 +747,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Bag of Devouring',
-       1,
        null,
        null,
        'This bag resembles a Bag of Holding but is a feeding orifice for a gigantic extradimensional creature. Turning the bag inside out closes the orifice.
@@ -839,7 +758,6 @@ VALUES(
             Inanimate objects can be stored in the bag, which can hold a cubic foot of such material. However, once each day, the bag swallows any objects inside it and spits them out into another plane of existence. The DM determines the time and plane.
             If the bag is pierced or torn, it is destroyed, and anything contained within it is transported to a random location on the Astral Plane.',
        'Control, Utility, Combat, Container',
-       'Dungeon Master’s Guide, pg. 153',
        'very rare',
        'Wondrous Item',
        true,
@@ -858,19 +776,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Fishing Tackle',
-       1,
        '4 lb',
        '1 gp',
        'This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -888,19 +803,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Climber''s Kit',
-       1,
        '12 lb',
        '25 gp',
        'A climber''s kit includes special pitons, boot tips, gloves, and a harness. You can use the climber''s kit as an action to anchor yourself; when you do, you can''t fall more than 25 feet from the point where you anchored yourself, and you can''t climb more than 25 feet away from that point without undoing the anchor.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -918,19 +830,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Bit and Bridle',
-          1,
           '1 lb',
           '2 gp',
           'Standard equipment used to direct a mount.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -948,19 +857,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Pot, Iron',
-       1,
        '10 lb',
        '2 gp',
        'An iron pot can hold 1 gallon of liquid.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -978,19 +884,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Ladder (10 foot)',
-       1,
        '25 lb',
        '1 sp',
        'This item is a straight, simple wooden ladder.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1008,19 +911,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Hourglass',
-          1,
           '1 lb',
           '25 gp',
           'A standard hourglass used to measure the passage of time.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -1038,19 +938,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Saddlebags',
-       1,
        '8 lb',
        '4 gp',
        'Standard saddlebags that can be attached to a mount''s saddle.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1068,19 +965,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Ink Pen',
-       1,
        null,
        '2 cp',
        'An ink pen is a wooden stick with a special tip on the end. The tip draws ink in when dipped in a vial and leaves an ink trail when drawn across a surface.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1098,19 +992,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Rope, Hempen (50 feet)',
-       1,
        '10 lb',
        '1 gp',
        'Rope, has 2 hit points and can be burst with a DC 17 Strength check.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1128,19 +1019,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Barrel',
-       1,
        '70 lb',
        '2 gp',
        'A barrel can hold 40 gallons of liquid, or 4 cubic feet of solid material.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1158,12 +1046,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Bag of Tricks',
-       1,
        null,
        null,
        'This ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound.
@@ -1207,7 +1093,6 @@ VALUES(
                 | 7 | Giant hyena |
                 | 8 | Tiger |',
        'Summoning, Utility',
-       'Basic Rules (2014), pg. 154',
        'uncommon',
        'Wondrous Item',
 
@@ -1227,19 +1112,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Bedroll',
-       1,
        '7 lb',
        '1 gp',
        'You never know where you’re going to sleep, and a bedroll helps you get better sleep in a hayloft or on the cold ground. A bedroll consists of bedding and a blanket thin enough to be rolled up and tied. In an emergency, it can double as a stretcher.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1257,19 +1139,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Chalk (1 piece)',
-       1,
        null,
        '1 cp',
        'A piece of chalk used for writing and marking on various surfaces.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1287,19 +1166,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Saddlebags',
-       1,
        '8 lb',
        '4 gp',
        'Standard saddlebags that can be attached to a mount''s saddle.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1317,19 +1193,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Bell',
-       1,
        null,
        '1 cp',
        'A standard bell that rings, typically used for signaling.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1347,19 +1220,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Jug or Pitcher',
-       1,
        '4 lb',
        '2 cp',
        'A jug or pitcher can hold 1 gallon of liquid.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1377,19 +1247,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Chain (10 feet)',
-       1,
        '10 lb',
        '5 gp',
        'A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1407,19 +1274,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Waterskin',
-       1,
        '5 lb',
        '2 sp',
        'A waterskin can hold 4 pints of liquid.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1437,19 +1301,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Tinderbox',
-       1,
        '1 lb',
        '0.5 gp',
        'A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1467,19 +1328,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Candle',
-       1,
        null,
        '1 cp',
        'For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1497,19 +1355,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Hunting Trap',
-       1,
        '25 lb',
        '5 gp',
        'As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1527,19 +1382,16 @@ VALUES(
        null,
        null,
 
-       null,
-       53
+       null
       ),
       (
        'Rope, Hempen (50 feet)',
-       1,
        '10 lb',
        '1 gp',
        'Rope, has 2 hit points and can be burst with a DC 17 Strength check.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1557,19 +1409,16 @@ VALUES(
        null,
        null,
 
-       null,
-       53
+       null
       ),
       (
        'Saddle, Exotic',
-       1,
        '40 lb',
        '60 gp',
        'An exotic saddle is required for riding any aquatic or flying mount.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1587,19 +1436,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Bucket',
-       1,
        '2 lb',
        '5 cp',
        'A bucket can hold 3 gallons of liquid, or 1/2 cubic foot of solid material.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1617,19 +1463,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Pole (10-foot)',
-       1,
        '7 lb',
        '0.05 gp',
        'When you suspect a trap, you can put the end of your 10-foot pole through that hole in the wall instead of reaching in with your hand.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1647,17 +1490,14 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Spyglass',
-       1,
        null,
        null,
        'When you drink this potion, you can cast the animal friendship spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.',
        'Control, Communication, Consumable',
-       'Basic Rules (2014), pg. 187',
        null,
        null,
 
@@ -1677,19 +1517,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Blanket',
-       1,
        '3 lb',
        '5 sp',
        'A thick, quilted, blanket made to keep you warm in cold weather.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1707,19 +1544,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Ladder (10 foot)',
-       1,
        '25 lb',
        '1 sp',
        'This item is a straight, simple wooden ladder.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1737,19 +1571,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Crowbar',
-       1,
        '5 lb',
        '2 gp',
        'Using a crowbar grants advantage to Strength checks where the crowbar''s leverage can be applied.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1767,19 +1598,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Dice Set',
-          1,
           null,
           '1 sp',
           'If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -1797,19 +1625,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Parchment (one sheet)',
-       1,
        null,
        '1 sp',
        'A sheet of parchment is a piece of goat hide or sheepskin that has been prepared for writing on.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1827,19 +1652,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Lantern, Bullseye',
-       1,
        '2 lb',
        '10 gp',
        'TA bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1857,17 +1679,14 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Lantern of Revealing',
-       1,
        null,
        null,
        'While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern''s bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius.',
        'Detection',
-       'Basic Rules (2014), pg. 179',
        'uncommon',
        'Wondrous Item',
 
@@ -1887,19 +1706,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Piton',
-       1,
        '1/4 lb',
        '5 cp',
        'When a wall doesn’t offer handholds and footholds, you can make your own. A piton is a steel spike with an eye through which you can loop a rope.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1917,19 +1733,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Chest',
-          1,
           '25 lb',
           '5 gp',
           'A chest can hold 12 cubic feet/ 300 pounds of gear.',
           null,
           null,
           null,
-          null,
 
           false,
           false,
@@ -1947,19 +1760,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Rations (1 day)',
-       1,
        '2 lb',
        '5 sp',
        'Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -1977,19 +1787,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Caltrops (bag of 20)',
-       1,
        '2 lb',
        '1 gp',
        'As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage. Taking this damage reduces the creature''s walking speed by 10 feet until the creature regains at least 1 hit point. A creature moving through the area at half speed doesn''t need to make the save.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -2007,19 +1814,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Lock',
-       1,
        '1 lb',
        '10 gp',
        'A key is provided with the lock. Without the key, a creature proficient with thieves'' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -2037,19 +1841,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Ink (1 ounce bottle)',
-       1,
        null,
        '10 gp',
        'Ink is typically used with an ink pen to write.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -2067,19 +1868,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Grappling Hook',
-       1,
        '4 lb',
        '2 gp',
        'When tied to the end of a rope, a grappling hook can secure the rope to a battlement, window ledge, tree limb, or other protrusion.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -2097,19 +1895,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Sack',
-       1,
        '1/2 lb',
        '1 cp',
        'A sack can hold 1 cubic foot/ 30 pounds of gear.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -2127,19 +1922,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Mirror, Steel',
-       1,
        '1/2 lb',
        '5 gp',
        'A steel mirror is handy when you want to look around corners, signal friends with reflected sunlight, keep an eye on a medusa, make sure that you look good enough to present yourself to the queen, or examine wounds that you’ve received on hard-to-see parts of your body.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -2157,19 +1949,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Torch',
-       1,
        '1 lb',
        '1 cp',
        'A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -2187,19 +1976,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Pouch',
-       1,
        '1 lb',
        '5 sp',
        'A cloth or leather pouch can hold 1/5 cubic foot/ 6 pounds of gear - or up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -2217,12 +2003,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Handy Haversack',
-       1,
        '5 lb',
        null,
        '*Capacity:* 120lb
@@ -2231,7 +2015,6 @@ VALUES(
             The haversack has a few limitations. If it is overloaded, or if a sharp object pierces it or tears it, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth, unharmed, and the haversack must be put right before it can be used again. If a breathing creature is placed within the haversack, the creature can survive for up to 10 minutes, after which time it begins to suffocate.
             Placing the haversack inside an extradimensional space created by a bag of holding, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can''t be reopened.',
        'Utility, Container',
-       null,
        'rare',
        'Wondrous Item',
 
@@ -2251,17 +2034,14 @@ VALUES(
        null,
        null,
 
-       null,
-       53
+       null
       ),
       (
        'Horseshoes of a Zephyr',
-       1,
        null,
        null,
        'These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above non-solid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores difficult terrain. In addition, the creature can move at normal speed for up to 12 hours a day without suffering exhaustion from a forced march.',
        'Movement, Exploration',
-       'Basic Rules (2014), pg. 175',
        'very rare',
        'Wondrous Item',
 
@@ -2281,19 +2061,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Rope of Climbing',
-       1,
        null,
        null,
        'This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.
                 If you tell the rope to knot, large knots appear at 1- foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.
                 The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.',
        'Advantage: Athletics, Movement, Utility, Exploration',
-       'Basic Rules (2014), pg. 197',
        'uncommon',
        'Wondrous Item',
 
@@ -2313,19 +2090,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Rope of Entanglement',
-       1,
        null,
        null,
        'This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its command word, the other end darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a DC 15 Dexterity saving throw or become restrained.
                 You can release the creature by using a bonus action to speak a second command word. A target restrained by the rope can use an action to make a DC 15 Strength or Dexterity check (target’s choice). On a success, the creature is no longer restrained by the rope.
                 The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.',
        'Restrained, Control',
-       'Basic Rules (2014), pg. 197',
        'rare',
        'Wondrous Item',
 
@@ -2345,6 +2119,5 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       )

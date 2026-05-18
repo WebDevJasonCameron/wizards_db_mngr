@@ -1,11 +1,10 @@
 INSERT INTO items (
+    --                    2, 7 (6), last
     item_name,
-    item_ttrpg,
     item_weight,
     item_cost,
     item_description,
     item_description_notes,
-    item_source,
     item_rarity,
     item_renowned_quality,
 
@@ -25,11 +24,9 @@ INSERT INTO items (
     item_armor_class,
     item_armor_notes,
 
-    item_image_url,
-    item_source_id)
+    item_image_url)
 VALUES(
     'Staff of Swarming Insects',
-    1,
     '4 lb',
     null,
     'This staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
@@ -41,7 +38,6 @@ VALUES(
         | Insect Plague | 5 |
         *Regaining Charges.* The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.',
     'Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard',
-    'Dungeon Master’s Guide, pg. 309',
     'rare',
     null,
 
@@ -61,12 +57,10 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Staff of the Woodlands',
-    1,
     null,
     null,
     'This staff has 6 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.
@@ -84,7 +78,6 @@ VALUES(
         * Tree Form. * You can take a Magic action to plant one end of the staff in earth in an unoccupied space and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of Transmutation magic that can be discerned with the Detect Magic spell. While touching the tree and using a Magic action, you return the staff to its normal form. Any creature in the tree falls when the tree reverts to a staff.
         * Regaining Charges.* The staff regains 1d6 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff loses its properties and becomes a nonmagical Quarterstaff.',
     'bonus: magic, bonus: spell attacks, druid, creation, control, communication, detection, warding',
-    'Dungeon Master’s Guide, pg. 311',
     'rare',
     null,
 
@@ -104,12 +97,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Sword of Life Stealing',
-    1,
     null,
     null,
     'Weapon (glaive, greatsword, longsword, rapier, scimitar, or shortsword), rare (requires attunement)
@@ -125,7 +116,6 @@ VALUES(
         | Scimitar | 1d6 Slashing | Finesse, Light | Nick |
         | Shortsword | 1d6 Piercing | Finesse, Light | Vex |',
     'damage: necrotic, bonus: temporary hit points, healing, damage, combat, finesse, light',
-    null,
     'rare',
     null,
 
@@ -145,12 +135,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Greatsword of Life Stealing',
-    1,
     null,
     null,
     'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn''t a construct or an undead. You also gain 10 temporary hit points.
@@ -159,7 +147,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Graze.* If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
     'Necrotic, Bonus: Temporary Hit Points, Healing, Damage, Combat, Heavy, Two-Handed, Graze',
-    null,
     'rare',
     null,
 
@@ -179,12 +166,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Longsword of Life Stealing',
-    1,
     null,
     null,
     'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn''t a construct or an undead. You also gain 10 temporary hit points.
@@ -193,7 +178,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Sap.* If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
     'Damage: Necrotic, Bonus: Temporary Hit Points, Healing, Damage, Combat, Versatile, Sap',
-    null,
     'rare',
     null,
 
@@ -213,12 +197,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Rapier of Life Stealing',
-    1,
     null,
     null,
     'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn''t a construct or an undead. You also gain 10 temporary hit points. Proficiency with a Rapier allows you to add your proficiency bonus to the attack roll for any attack you make with it.
@@ -226,7 +208,6 @@ VALUES(
      This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
       *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
     'Damage: Necrotic, Bonus: Temporary Hit Points, Healing, Damage, Combat, Finesse, Vex',
-    null,
     'rare',
     null,
 
@@ -246,12 +227,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Scimitar of Life Stealing',
-    1,
     null,
     null,
     'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn''t a construct or an undead. You also gain 10 temporary hit points.
@@ -260,7 +239,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Nick.* When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
     'Damage: Necrotic, Bonus: Temporary Hit Points, Healing, Damage, Combat, Finesse, Light, Nick',
-    null,
     null,
     null,
 
@@ -280,12 +258,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Shortsword of Life Stealing',
-    1,
     null,
     null,
     'When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn''t a construct or an undead. You also gain 10 temporary hit points.
@@ -294,7 +270,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
     'Damage: Necrotic, Bonus: Temporary Hit Points, Healing, Damage, Combat, Finesse, Light, Vex',
-    null,
     'rare',
     null,
 
@@ -314,17 +289,14 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Blowgun Needles',
-    1,
     '1 lb',
     '1 gp',
     'Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.',
     'Bonus: Magic, Damage; Bundle Size: 50',
-    'Dungeon Master’s Guide, pg. 150',
     'common',
     null,
 
@@ -344,17 +316,14 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Blowgun Needles, +1',
-    1,
     null,
     null,
     'You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.',
     'Bonus: Magic, Damage; Bundle Size: 50',
-    'Dungeon Master’s Guide, pg. 150',
     'uncommon',
     null,
 
@@ -374,17 +343,14 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Blowgun Needles, +2',
-    1,
     null,
     null,
     'You have a +2 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.',
     'Bonus: Magic, Damage; Bundle Size: 50',
-    'Dungeon Master’s Guide, pg. 150',
     'rare',
     null,
 
@@ -404,17 +370,14 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Blowgun Needles, +3',
-    1,
     null,
     null,
     'You have a +3 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.',
     'Bonus: Magic, Damage; Bundle Size: 50',
-    'Dungeon Master’s Guide, pg. 150',
     'very rare',
     null,
 
@@ -434,12 +397,10 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Berserker Axe',
-    1,
     null,
     null,
     'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
@@ -454,7 +415,6 @@ VALUES(
         | Greataxe | Martial Melee | 1d12 Slashing | Heavy, two-handed |
         | Halberd | Martial Melee | 1d10 Slashing | Heavy, Reach, Two-Handed |',
     'bonus: magic, bonus: hit points per level, combat, cursed, versatile',
-    null,
     'rare',
     null,
 
@@ -474,12 +434,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Berserker Handaxe',
-    1,
     null,
     null,
     'You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.
@@ -490,7 +448,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
     'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Light, Thrown, Vex',
-    null,
     'rare',
     null,
 
@@ -510,11 +467,9 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),(
     'Berserker Battleaxe',
-    1,
     null,
     null,
     'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
@@ -526,7 +481,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Topple.* If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
     'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Versatile, Topple',
-    null,
     'rare',
     null,
 
@@ -546,11 +500,9 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),(
     'Berserker Greataxe',
-    1,
     null,
     null,
     'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
@@ -562,7 +514,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Cleave.* If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
     'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Heavy, Two-Handed, Cleave',
-    null,
     'rare',
     null,
 
@@ -582,11 +533,9 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),(
     'Berserker Halberd',
-    1,
     null,
     null,
     'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained.
@@ -594,7 +543,6 @@ VALUES(
         Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.
         While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you’re unable to get close enough to the creature to attack it with the weapon, your turn ends after you’ve used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.',
     'Bonus: Magic, Bonus: Hit Points per Level, Combat, Cursed, Heavy, Reach, Two-Handed, Cleave',
-    'Dungeon Master’s Guide, pg. 236',
     'rare',
     null,
 
@@ -614,12 +562,10 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Luck Blades',
-    1,
     null,
     null,
     'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a +1 bonus to saving throws.
@@ -635,7 +581,6 @@ VALUES(
         | Sickle | 1d6 Slashing | Finesse, Light | Nick |
         | Shortsword | 1d6 Piercing | Finesse, Light | Vex |',
     'Bonus: Magic, Bonus: Saving Throws, Damage, Control, Buff, Combat',
-    'Basic Rules (2014), pg. 179',
     'legendary',
     null,
 
@@ -655,12 +600,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Luck Blade Greatsword',
-    1,
     '6 lb',
     null,
     'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
@@ -671,7 +614,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Sap.* If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
     'Bonus: Magic, Bonus: Saving Throws, Damage, Control, Buff, Combat, Versatile, Sap',
-    null,
     'legendary',
     null,
 
@@ -691,12 +633,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Luck Blade Longsword',
-    1,
     '3 lb',
     null,
     'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
@@ -707,7 +647,6 @@ VALUES(
     This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
     *Graze.* If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
     'Bonus: Magic, Bonus: Saving Throws, Damage, Control, Buff, Combat, Heavy, Two-Handed, Graze',
-    null,
     'legendary',
     null,
 
@@ -727,12 +666,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Luck Blade Rapier',
-    1,
     '2 lb',
     null,
     'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
@@ -743,7 +680,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
     'Bonus: Magic, Bonus: Saving Throws, Damage, Control, Buff, Combat, Finesse, Vex',
-    null,
     'legendary',
     null,
 
@@ -763,12 +699,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Luck Blade Scimitar',
-    1,
     '3 lb',
     null,
     'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
@@ -779,7 +713,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Nick.* When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
     'bonus: magic, bonus: saving throws, damage, control, buff, combat, finesse, light',
-    null,
     'legendary',
     null,
 
@@ -799,12 +732,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Luck Blade Shortsword',
-    1,
     '2 lb',
     null,
     'You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.
@@ -815,7 +746,6 @@ VALUES(
         ---
         *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
     'Bonus: Magic, Bonus: Saving Throws, Damage, Control, Buff, Combat, Finesse, Light, Vex',
-    null,
     'legendary',
     null,
 
@@ -835,18 +765,15 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Wand of Magic Missiles',
-    1,
     null,
     null,
     'This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
         The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
     'Damage, Combat',
-    'Basic Rules (2014), pg. 211',
     'uncommon',
     null,
 
@@ -866,12 +793,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Vicious Revolver',
-    1,
     '3 lb',
     null,
     'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -880,7 +805,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Sap.* If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
     'Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Sap',
-    'Basic Rules (2014), pg. 209',
     'rare',
     null,
 
@@ -900,12 +824,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Oathbow Longbow',
-    1,
     '2 lb',
     null,
     'When you nock an arrow on this bow, it whispers in Elvish, "Swift defeat to my enemies." When you use this weapon to make a ranged attack, you can, as a command phrase, say, "Swift death to you who have wronged me." The target of your attack becomes your sworn enemy until it dies or until dawn seven days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.
@@ -916,7 +838,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Slow.* If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
     'Damage: Piercing, Damage, Combat, Bane, Ammunition, Heavy, Range, Two-Handed, Slow',
-    'Basic Rules (2014), pg. 183',
     'very rare',
     null,
 
@@ -936,19 +857,16 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Oathbow Shortbow',
-    1,
     '2 lb',
     null,
     'When you nock an arrow on this bow, it whispers in Elvish, "Swift defeat to my enemies." When you use this weapon to make a ranged attack, you can, as a command phrase, say, "Swift death to you who have wronged me." The target of your attack becomes your sworn enemy until it dies or until dawn seven days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.
         When you make a ranged attack roll with this weapon against your sworn enemy, you have advantage on the roll. In addition, your target gains no benefit from cover, other than total cover, and you suffer no disadvantage due to long range. If the attack hits, your sworn enemy takes an extra 3d6 piercing damage.
         While your sworn enemy lives, you have Disadvantage on attack rolls with all other weapons.',
     'Damage: Piercing, Damage, Combat, Bane, Ammunition, Heavy, Range, Two-Handed, Slow',
-    null,
     'very rare',
     null,
 
@@ -968,18 +886,15 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Efficient Quiver',
-    1,
     '2 lb',
     null,
     'Each of the quiver''s three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.
         You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.',
     'Utility, Container',
-    null,
     'uncommon',
     'Wondrous Item',
 
@@ -999,12 +914,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Vicious Trident',
-    1,
     null,
     null,
     'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -1013,7 +926,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Topple.* If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
     ' Damage: Additional, Damage, Combat, Thrown, Versatile, Topple',
-    null,
     'rare',
     null,
 
@@ -1033,12 +945,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Wands of the War Mage',
-    1,
     null,
     null,
     'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.
@@ -1049,7 +959,6 @@ VALUES(
         | Rare| +2 |
         | Very Rare| +3 | ',
     'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
-    'Dungeon Master’s Guide, pg. 212',
     'varies',
     null,
 
@@ -1069,17 +978,14 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Wand of the War Mage, +1',
-    1,
     null,
     null,
     'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
     'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
-    null,
     'uncommon',
     null,
 
@@ -1099,17 +1005,14 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Wand of the War Mage, +2',
-    1,
     null,
     null,
     'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
     'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
-    null,
     'very rare',
     null,
 
@@ -1129,17 +1032,14 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Wand of the War Mage, +3',
-    1,
     null,
     null,
     'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
     'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
-    null,
     'very rare',
     null,
 
@@ -1159,12 +1059,10 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Trident of Fish Command',
-    1,
     '4 lb',
     null,
     'This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast Dominate Beast (save DC 15) from it on a Beast that has a Swim Speed.
@@ -1173,7 +1071,6 @@ VALUES(
          This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
          *Topple.* If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
     'Damage, Control, Combat, Thrown, Versatile, Topple',
-    'Dungeon Master’s Guide, pg. 209',
     'uncommon',
     null,
 
@@ -1193,12 +1090,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Swords of Wounding',
-    1,
     null,
     null,
     'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -1213,7 +1108,6 @@ VALUES(
          | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
          | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
     'Damage: Necrotic, Damage, Combat',
-    'Basic Rules (2014), pg. 207',
     'rare',
     null,
 
@@ -1233,12 +1127,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Greatsword of Wounding',
-    1,
     '6 lb',
     null,
     'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -1249,7 +1141,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Graze.* If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
     'Damage: Necrotic, Damage, Combat',
-    null,
     'rare',
     null,
 
@@ -1269,12 +1160,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Longsword of Wounding',
-    1,
     '3 lb',
     null,
     'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -1285,7 +1174,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
     'Damage: Necrotic, Damage, Combat, Versatile, Sap',
-    null,
     'rare',
     null,
 
@@ -1305,12 +1193,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Rapier of Wounding',
-    1,
     '2 lb',
     null,
     'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -1320,7 +1206,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn',
     'Damage: Necrotic, Damage, Combat, Finesse, Vex',
-    null,
     'rare',
     null,
 
@@ -1340,12 +1225,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Scimitar of Wounding',
-    1,
     '3 lb',
     null,
     'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -1355,7 +1238,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Nick.* When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
     'Damage: Necrotic, Damage, Combat, Finesse, Light, Nick',
-    null,
     'rare',
     null,
 
@@ -1375,12 +1257,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Shortsword of Wounding',
-    1,
     '2 lb',
     null,
     'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -1390,7 +1270,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Vex.* If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
     'Damage: Necrotic, Damage, Combat, Finesse, Light, Vex',
-    null,
     'rare',
     null,
 
@@ -1410,12 +1289,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Vorpal Swords',
-    1,
     null,
     null,
     'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
@@ -1427,7 +1304,6 @@ VALUES(
         * Longsword * Martial Melee | 1d8 + 3 slashing | Versatile (1d10) |
         * Scimitar * Martial Melee | 1d6 + 3 slashing | Finesse, light |',
     'Bonus: Magic, Damage, Combat',
-    'Basic Rules (2014), pg. 209',
     'legendary',
     null,
 
@@ -1447,12 +1323,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Vorpal Greatsword',
-    1,
     '6 lb',
     null,
     'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
@@ -1462,7 +1336,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Graze.* If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
     'Bonus: Magic, Damage, Combat, Heavy, Two-Handed, Graze',
-    null,
     'legendary',
     null,
 
@@ -1482,12 +1355,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Vorpal Longsword',
-    1,
     '3 lb',
     null,
     'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
@@ -1497,7 +1368,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Sap.* If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
     'Bonus: Magic, Damage, Combat, Versatile, Sap',
-    null,
     'legendary',
     null,
 
@@ -1517,12 +1387,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Vorpal Scimitar',
-    1,
     '3 lb',
     null,
     'You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
@@ -1532,7 +1400,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Nick.* When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
     'Bonus: Magic, Damage, Combat, Finesse, Light, Nick',
-    null,
     'legendary',
     null,
 
@@ -1552,12 +1419,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Vicious Dagger',
-    1,
     '1 lb',
     null,
     'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -1566,7 +1431,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
     'Damage: Additional, Damage, Combat, Finesse, Light, Thrown, Nick',
-    null,
     'rare',
     null,
 
@@ -1586,12 +1450,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
       'Scimitar of Speed',
-    1,
     '3 lb',
     null,
     'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. In addition, you can make one attack with it as a Bonus Action on each of your turns.
@@ -1600,7 +1462,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
     'Bonus: Magic, Extra Attack as Bonus Action, Damage, Combat, Finesse, Light, Nick',
-    'Dungeon Master’s Guide, pg. 199',
     'very rare',
     null,
 
@@ -1620,12 +1481,10 @@ VALUES(
     null,
     null,
 
-    null,
-    17
+    null
     ),
     (
     'Dwarven Thrower',
-    1,
     '5 lb',
     null,
     'You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. It has the Thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra 1d8 Force damage, or an extra 2d8 Force damage if the target is a Giant. Immediately after hitting or missing, the weapon flies back to your hand.
@@ -1634,7 +1493,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Push.* If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
     'Bonus: Magic, Damage: Additional, Damage: Additional, Dwarf or a Creature Attuned to a Belt of Dwarvenkind, Damage, Combat, Versatile, Push',
-    'Dungeon Master’s Guide, pg. 167',
     'very rare',
     null,
 
@@ -1654,16 +1512,13 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Yew Wand',
-    1,
     '1 lb',
     '10 gp',
     'A druid can use a Yew Wand as a spellcasting focus, as described in the Spellcasting section.',
-    null,
     null,
     null,
     null,
@@ -1684,12 +1539,10 @@ VALUES(
     null,
     null,
 
-    null,
-    5
+    null
     ),
     (
     'Vicious Greatclub',
-     1,
      '10 lb',
      null,
      'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -1698,7 +1551,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         *Push.* If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller',
      'Damage: Additional, Damage, Combat, Two-Handed, Push',
-     null,
      'rare',
      null,
 
@@ -1718,12 +1570,10 @@ VALUES(
      null,
      null,
 
-     null,
-     5
+     null
       ),
       (
           'Staff of Frost',
-          1,
           null,
           null,
           'You have resistance to cold damage while you hold this staff.
@@ -1741,7 +1591,6 @@ VALUES(
               | Wall of Ice | 4 |
               Regaining Charges.The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed.',
           'Resistance: Cold, Druid, Sorcerer, Warlock, or Wizard, Damage, Control, Combat, Warding',
-          'Dungeon Master’s Guide, pg. 308',
           'very rare',
           null,
 
@@ -1761,12 +1610,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Flame Tongues',
-          1,
           null,
           null,
           'You can use a bonus action to speak this magic sword''s command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
@@ -1780,7 +1627,6 @@ VALUES(
                 | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
                 | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
           'Basic Rules (2014), pg. 170',
-          null,
           null,
           null,
 
@@ -1800,12 +1646,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Flame Tongue Greatsword',
-       1,
        '6 lb',
        null,
        'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
@@ -1815,7 +1659,6 @@ VALUES(
             Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.
             ',
        'Damage: Fire, Damage, Combat, Heavy, Two-Handed, Graze',
-       null,
        'rare',
        null,
 
@@ -1835,12 +1678,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
     (
      'Flame Tongue Longsword',
-     1,
      '3 lb',
      null,
      'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
@@ -1849,7 +1690,6 @@ VALUES(
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
         Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
      'Damage: Fire, Damage, Combat, Versatile, Sap',
-     null,
      'rare',
      null,
 
@@ -1869,12 +1709,10 @@ VALUES(
      null,
      null,
 
-     null,
-     5
+     null
       ),
       (
        'Flame Tongue Rapier',
-       1,
        '2 ft',
        null,
        'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
@@ -1884,7 +1722,6 @@ VALUES(
             Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.
             Note: Damage: Fire, Damage, Combat, Finesse, Vex',
        'Damage: Fire, Damage, Combat, Finesse, Vex',
-       null,
        'rare',
        null,
 
@@ -1904,12 +1741,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Flame Tongue Scimitar',
-          1,
           '3 lb',
           null,
           'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
@@ -1918,7 +1753,6 @@ VALUES(
                This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Damage: Fire, Damage, Combat, Finesse, Light, Nick',
-          null,
           null,
           null,
 
@@ -1938,12 +1772,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
            'Flame Tongue Shortsword',
-           1,
            '2 lb',
            null,
            'While holding this magic weapon, you can take a Bonus Action and use a command word to cause flames to engulf the damage-dealing part of the weapon. These flames shed Bright Light in a 40-foot radius and Dim Light for an additional 40 feet. While the weapon is ablaze, it deals an extra 2d6 Fire damage on a hit. The flames last until you take a Bonus Action to issue the command again or until you drop, stow, or sheathe the weapon.
@@ -1952,7 +1784,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
            'Fire, Damage, Combat, Finesse, Light, Nick',
-           null,
            'rare',
            null,
 
@@ -1972,12 +1803,10 @@ VALUES(
            null,
            null,
 
-           null,
-            5
+           null
       ),
       (
        'Holy Avenger',
-       1,
        null,
        null,
        'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
@@ -1991,7 +1820,6 @@ VALUES(
             | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
             | Shortsword | Martial Melee | 1d6 piercing | Finesse, light| |',
        'Bonus: Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Versatile, Sap',
-       null,
        'legendary',
        null,
 
@@ -2011,12 +1839,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Holy Avenger Greatsword',
-          1,
           '6 ft',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
@@ -2026,7 +1852,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Bonus: Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Heavy, Two-Handed, Graze',
-          null,
           'legendary',
           null,
 
@@ -2046,13 +1871,11 @@ VALUES(
           null,
           null,
 
-          null,
-          53
+          null
       ),
 
       (
           'Holy Avenger Longsword',
-          1,
           '3 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
@@ -2062,7 +1885,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Versatile, Sap',
-          null,
           'legendary',
           null,
 
@@ -2082,13 +1904,11 @@ VALUES(
           null,
           null,
 
-          null,
-          53
+          null
       ),
 
       (
           'Holy Avenger Rapier',
-          1,
           '2 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
@@ -2098,7 +1918,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Finesse, Vex',
-          null,
           'legendary',
           null,
 
@@ -2118,13 +1937,11 @@ VALUES(
           null,
           null,
 
-          null,
-          53
+          null
       ),
 
       (
           'Holy Avenger Scimitar',
-          1,
           '3 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
@@ -2134,7 +1951,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Finesse, Light, Nick',
-          null,
           'legendary',
           null,
 
@@ -2154,13 +1970,11 @@ VALUES(
           null,
           null,
 
-          null,
-          53
+          null
       ),
 
       (
           'Holy Avenger Shortsword',
-          1,
           '2 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.
@@ -2170,7 +1984,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Radiant, Advantage: Saving Throws, Paladin, Damage, Combat, Warding, Finesse, Light, Vex',
-          null,
           'legendary',
           null,
 
@@ -2190,19 +2003,16 @@ VALUES(
           null,
           null,
 
-          null,
-          53
+          null
       ),
       (
        'Wand of Binding',
-       1,
        null,
        null,
        'This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
             *Spells.* While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): hold monster (5 charges) or hold person (2 charges).
             *Assisted Escape.* While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being paralyzed or restrained, or you can expend 1 charge and gain advantage on any check you make to escape a grapple.',
        'Advantage: Saving Throws, Advantage: Acrobatics, Advantage: Athletics, Spellcaster, Control, Buff',
-       'Basic Rules (2014), pg. 209',
        'rare',
        null,
        true,
@@ -2221,12 +2031,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
           'Vicious Weapons',
-          1,
           null,
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2302,7 +2110,6 @@ VALUES(
                 | Antimatter rifle | Martial Ranged | 6d8 necrotic | Ammunition (range 120/360), reload (2 shots), two-handed |
                 | Laser rifle | Martial Ranged | 3d8 radiant | Ammunition (range 100/300), reload (30 shots), two-handed |',
           'Damage: Additional, Damage, Combat',
-          'Basic Rules (2014), pg. 209',
           'rare',
           null,
           true,
@@ -2322,12 +2129,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Club',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2336,7 +2141,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Light, Slow',
-          null,
           'rare',
           null,
 
@@ -2356,12 +2160,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Dagger',
-          1,
           '1 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2370,7 +2172,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Damage: Additional, Damage, Combat, Finesse, Light, Thrown, Nick',
-          null,
           'rare',
           null,
 
@@ -2390,12 +2191,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Greatclub',
-          1,
           '10 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2404,7 +2203,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Damage: Additional, Damage, Combat, Two-Handed, Push',
-          null,
           'rare',
           null,
 
@@ -2424,12 +2222,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Handaxe',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2438,7 +2234,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Light, Thrown, Vex',
-          null,
           'rare',
           null,
 
@@ -2458,12 +2253,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Javelin',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2472,7 +2265,6 @@ VALUES(
            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
            Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Thrown, Slow',
-          null,
           'rare',
           null,
 
@@ -2492,12 +2284,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Light Hammer',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2506,7 +2296,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Damage: Additional, Damage, Combat, Light, Thrown, Nick',
-          null,
           'rare',
           null,
 
@@ -2526,12 +2315,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Mace',
-          1,
           '4 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2540,7 +2327,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Note: Damage: Additional, Damage, Combat, Sap',
-          null,
           'rare',
           null,
 
@@ -2560,12 +2346,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Quarterstaff',
-          1,
           '4 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2574,7 +2358,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Damage: Additional, Damage, Combat, Versatile, Topple',
-          null,
           'rare',
           null,
 
@@ -2594,12 +2377,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Sickle',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2608,7 +2389,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Damage: Additional, Damage, Combat, Light, Nick',
-          null,
           'rare',
           null,
 
@@ -2628,12 +2408,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Spear',
-          1,
           null,
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2642,7 +2420,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Additional, Damage, Combat, Thrown, Versatile, Sap',
-          null,
           'rare',
           null,
 
@@ -2662,18 +2439,15 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Yklwa',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
                 A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. It costs 1 gp, and it deals 1d8 piercing damage on a hit. Although it has the thrown weapon property, the yklwa is not well balanced for throwing (range 10/30 ft.).',
           'Damage: Additional, Damage, Combat, Thrown',
-          null,
           'rare',
           null,
 
@@ -2693,12 +2467,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Crossbow, Light',
-          1,
           '5 ft',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2707,7 +2479,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Ammunition, Loading, Range, Two-Handed, Slow',
-          null,
           'rare',
           null,
 
@@ -2727,12 +2498,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Dart',
-          1,
           '0.25 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2741,7 +2510,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Finesse, Thrown, Vex',
-          null,
           'rare',
           null,
 
@@ -2761,12 +2529,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Shortbow',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2775,7 +2541,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Ammunition, Range, Two-Handed, Vex',
-          null,
           'rare',
           null,
 
@@ -2795,12 +2560,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Sling',
-          1,
           null,
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2809,7 +2572,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Ammunition, Range, Slow',
-          null,
           'rare',
           null,
 
@@ -2829,12 +2591,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Battleaxe',
-          1,
           '4 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2843,7 +2603,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition',
           'Damage: Additional, Damage, Combat, Versatile, Topple',
-          null,
           'rare',
           null,
 
@@ -2863,12 +2622,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Flail',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2877,7 +2634,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Additional, Damage, Combat, Sap',
-          null,
           'rare',
           null,
 
@@ -2897,12 +2653,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Glaive',
-          1,
           '6 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2911,7 +2665,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Graze',
-          null,
           'rare',
           null,
 
@@ -2931,12 +2684,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Greataxe',
-          1,
           '7 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2945,7 +2696,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
           'Damage: Additional, Damage, Combat, Heavy, Two-Handed, Cleave',
-          null,
           'rare',
           null,
 
@@ -2965,12 +2715,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Greatsword',
-          1,
           '6 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -2979,7 +2727,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Damage: Additional, Damage, Combat, Heavy, Two-Handed, Graze',
-          null,
           'rare',
           null,
 
@@ -2999,12 +2746,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Halberd',
-          1,
           '6 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3013,7 +2758,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
           'Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Cleave',
-          null,
           'rare',
           null,
 
@@ -3033,12 +2777,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Lance',
-          1,
           '6 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3047,7 +2789,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Topple',
-          null,
           'rare',
           null,
 
@@ -3067,12 +2808,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Longsword',
-          1,
           '3 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3081,7 +2820,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Additional, Damage, Combat, Versatile, Sap',
-          null,
           'rare',
           null,
 
@@ -3101,12 +2839,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Maul',
-          1,
           '10 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3115,7 +2851,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Damage: Additional, Damage, Combat, Heavy, Two-Handed, Topple',
-          null,
           'rare',
           null,
 
@@ -3135,12 +2870,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Morningstar',
-          1,
           '4 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3149,7 +2882,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Additional, Damage, Combat, Sap',
-          null,
           'rare',
           null,
 
@@ -3170,12 +2902,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Pike',
-          1,
           '18 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3184,7 +2914,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Push',
-          null,
           'rare',
           null,
 
@@ -3204,12 +2933,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Rapier',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3218,7 +2945,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Finesse, Vex',
-          null,
           'rare',
           null,
 
@@ -3238,12 +2964,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Scimitar',
-          1,
           '3 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3252,7 +2976,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Damage: Additional, Damage, Combat, Finesse, Light, Nick',
-          null,
           'rare',
           null,
 
@@ -3272,12 +2995,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Shortsword',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3286,7 +3007,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Finesse, Light, Vex',
-          null,
           'rare',
           null,
 
@@ -3306,12 +3026,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Trident',
-          1,
           '4 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3320,7 +3038,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Damage: Additional, Damage, Combat, Thrown, Versatile, Topple',
-          null,
           'rare',
           null,
 
@@ -3340,12 +3057,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious War Pick',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3354,7 +3069,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Additional, Damage, Combat, Versatile, Sap',
-          null,
           'rare',
           null,
 
@@ -3374,12 +3088,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Warhammer',
-          1,
           '5 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3388,7 +3100,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Damage: Additional, Damage, Combat, Versatile, Push',
-          null,
           'rare',
           null,
 
@@ -3408,12 +3119,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Whip',
-          1,
           '3 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3422,7 +3131,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Finesse, Reach, Slow',
-          null,
           'rare',
           null,
 
@@ -3442,12 +3150,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Blowgun',
-          1,
           '1 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3456,7 +3162,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Ammunition, Loading, Range, Vex',
-          null,
           'rare',
           null,
 
@@ -3476,12 +3181,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Crossbow, Hand',
-          1,
           '3 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3490,7 +3193,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Ammunition, Light, Loading, Range, Vex',
-          null,
           'rare',
           null,
 
@@ -3510,12 +3212,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Crossbow, Heavy',
-          1,
           '18 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3524,7 +3224,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Damage: Additional, Damage, Combat, Ammunition, Heavy, Loading, Range, Two-Handed, Push',
-          null,
           'rare',
           null,
 
@@ -3544,12 +3243,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Longbow',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3558,7 +3255,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Ammunition, Heavy, Range, Two-Handed, Slow',
-          null,
           'rare',
           null,
 
@@ -3578,12 +3274,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Net',
-          1,
           '3 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3592,7 +3286,6 @@ VALUES(
                 A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
                 When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.',
           'Damage: Additional, Damage, Combat, Special, Thrown',
-          null,
           'rare',
           null,
 
@@ -3612,12 +3305,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Pistol',
-          1,
           null,
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3626,7 +3317,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Loading, Range, Ammunition (Firearms), Vex',
-          null,
           'rare',
           null,
 
@@ -3646,12 +3336,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Musket',
-          1,
           '10 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3660,7 +3348,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Loading, Range, Two-Handed, Ammunition (Firearms), Slow',
-          'Player’s Handbook (2014), pg. 209',
           'rare',
           null,
 
@@ -3680,18 +3367,15 @@ VALUES(
           null,
           null,
 
-          null,
-          53
+          null
       ),
       (
           'Vicious Pistol, Automatic',
-          1,
           '3 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
                 It’s up to you to decide whether a character has proficiency with a firearm. Characters in most D&D worlds wouldn’t have such proficiency. During their downtime, characters can use the training rules in the Player’s Handbook to acquire proficiency, assuming that they have enough ammunition to keep the weapons working while mastering their use.',
           'Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload',
-          'Basic Rules (2014), pg. 209',
           'rare',
           null,
 
@@ -3711,12 +3395,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Revolver',
-          1,
           '3 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3725,7 +3407,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Sap',
-          'Basic Rules (2014), pg. 209',
           'rare',
           null,
 
@@ -3745,12 +3426,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Rifle, Hunting',
-          1,
           '8 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3759,7 +3438,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
-          'Basic Rules (2014), pg. 209',
           'rare',
           null,
 
@@ -3779,12 +3457,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Rifle, Automatic',
-          1,
           '8 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3793,7 +3469,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Burst Fire,',
-          null,
           'rare',
           null,
 
@@ -3813,12 +3488,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Shotgun',
-          1,
           '7 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3827,7 +3500,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Push',
-          null,
           'rare',
           null,
 
@@ -3847,12 +3519,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Laser Pistol',
-          1,
           '2 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3861,7 +3531,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Vex',
-          'Basic Rules (2014), pg. 209',
           'rare',
           null,
 
@@ -3881,12 +3550,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Antimatter Rifle',
-          1,
           null,
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3895,7 +3562,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Sap',
-          'Basic Rules (2014), pg. 203',
           'rare',
           null,
 
@@ -3915,12 +3581,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Vicious Laser Rifle',
-          1,
           '7 lb',
           null,
           'When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 7 damage of the weapon’s type.
@@ -3929,7 +3593,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
-          'Basic Rules (2014), pg. 209',
           'rare',
           null,
 
@@ -3949,12 +3612,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Swords of Sharpness',
-          1,
           null,
           null,
           'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
@@ -3967,7 +3628,6 @@ VALUES(
                | Longsword | Martial Melee | 1d8 slashing | Versatile (1d10) |
                | Scimitar | Martial Melee | 1d6 slashing | Finesse, light',
           'Damage: Slashing, Damage, Combat',
-          'Basic Rules (2014), pg. 206',
           'very rare',
           null,
 
@@ -3987,12 +3647,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Greatsword of Sharpness',
-          1,
           '6 lb',
           null,
           'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
@@ -4003,7 +3661,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Damage: Slashing, Maximize Weapon Damage, Damage, Combat, Heavy, Two-Handed, Graze',
-          null,
           'very rare',
           null,
 
@@ -4023,12 +3680,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Longsword of Sharpness',
-          1,
           '8 lb',
           null,
           'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
@@ -4039,7 +3694,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Slashing, Maximize Weapon Damage, Damage, Combat, Versatile, Sap',
-          null,
           'very rare',
           null,
 
@@ -4059,12 +3713,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Scimitar of Sharpness',
-          1,
           '3 lb',
           null,
           'When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.
@@ -4075,7 +3727,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Damage: Slashing, Maximize Weapon Damage, Damage, Combat, Finesse, Light, Nick',
-          null,
           'very rare',
           null,
 
@@ -4095,12 +3746,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Longsword, +2',
-       1,
        null,
        null,
        'You have a +2 bonus to attack and damage rolls made with this magic weapon.
@@ -4109,7 +3758,6 @@ VALUES(
             This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
             Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
        'Bonus: Magic, Damage, Combat, Versatile, Sap',
-       null,
        'rare',
        null,
 
@@ -4129,12 +3777,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Giant Slayers',
-          1,
           null,
           null,
           'When you hit a Giant with this weapon, the Giant takes an extra 2d6 damage of the weapon’s type and must succeed on a DC 15 Strength saving throw or have the Prone condition.
@@ -4196,7 +3842,6 @@ VALUES(
                 | Laser Pistol | 3d6 Radiant | Ammunition (Range 40/120; Energy Cell), Reload (50 shots) | Vex |
                 | Laser Rifle | 3d8 Radiant | Ammunition (Range 100/300; Energy Cell), Reload (30 shots), Two-Handed | Slow |',
           'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Versatile, Topple',
-          'Dungeon Master’s Guide, pg. 172',
           null,
           null,
 
@@ -4216,12 +3861,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Club',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4231,7 +3874,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Light, Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4251,12 +3893,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Dagger',
-          1,
           '1 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4266,7 +3906,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Finesse, Light, Thrown, Nick',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4286,12 +3925,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Greatclub',
-          1,
           '10 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4301,7 +3938,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Two-Handed, Push',
-          'Dungeon Master’s Guide, pg. 265',
           'rare',
           null,
 
@@ -4321,12 +3957,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Handaxe',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -4336,7 +3970,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Light, Thrown, Vex',
-          null,
           'rare',
           null,
 
@@ -4356,12 +3989,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Javelin',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4371,7 +4002,6 @@ VALUES(
            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
            Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Thrown, Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4391,12 +4021,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Light Hammer',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4406,7 +4034,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Light, Thrown, Nick',
-          'Dungeon Master’s Guide, pg. 265',
           'rare',
           null,
 
@@ -4426,12 +4053,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Mace',
-          1,
           '4 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4441,7 +4066,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Sap',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4461,12 +4085,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Quarterstaff',
-          1,
           '4 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4476,7 +4098,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Versatile, Topple',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4496,12 +4117,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Sickle',
-          1,
           '',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4511,7 +4130,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Light, Nick',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4531,12 +4149,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Spear',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4546,7 +4162,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Thrown, Versatile, Sap',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4566,12 +4181,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Dart',
-          1,
           '0.25 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4581,7 +4194,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Finesse, Thrown, Vex',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4601,12 +4213,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Light Crossbow',
-          1,
           '5 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4616,7 +4226,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Ammunition, Loading, Range, Two-Handed, Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4636,12 +4245,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
+
       ),
       (
           'Giant Slayer Shortbow',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4651,7 +4259,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Ammunition, Range, Two-Handed, Vex',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4671,12 +4278,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Sling',
-          1,
           null,
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4686,7 +4291,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Ammunition, Range, Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4706,12 +4310,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Battleaxe',
-          1,
           '4 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -4721,7 +4323,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Magic, Damage: Additional, Prone, Damage, Combat, Versatile, Topple',
-          null,
           'rare',
           null,
 
@@ -4741,12 +4342,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Flail',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4756,7 +4355,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Sap',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4776,12 +4374,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Glaive',
-          1,
           '6 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4791,7 +4387,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Graze',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4811,12 +4406,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Greataxe',
-          1,
           '7 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -4825,9 +4418,7 @@ VALUES(
                 ---
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn',
-          'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Heavy, Two-Handed, Cleave',
-          null,
-          'rare',
+          'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Heavy, Two-Handed, Cleave',          'rare',
           null,
 
           true,
@@ -4846,12 +4437,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Greatsword',
-          1,
           '6 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -4861,7 +4450,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Heavy, Two-Handed, Graze',
-          null,
           'rare',
           null,
 
@@ -4881,12 +4469,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Halberd',
-          1,
           '6 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4896,7 +4482,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Cleave',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4916,12 +4501,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Lance',
-          1,
           '6 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -4931,7 +4514,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'onus: Magic, Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Topple',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -4951,12 +4533,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Longsword',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -4966,7 +4546,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Versatile, Sap',
-          null,
           'rare',
           null,
 
@@ -4986,12 +4565,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Maul',
-          1,
           '10 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5001,7 +4578,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Heavy, Two-Handed, Topple',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5021,12 +4597,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Morningstar',
-          1,
           '4 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5036,7 +4610,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Sap',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5056,12 +4629,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Pike',
-          1,
           '18 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5071,7 +4642,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Heavy, Reach, Two-Handed, Push',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5091,12 +4661,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Rapier',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -5106,7 +4674,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Finesse, Vex',
-          null,
           'rare',
           null,
 
@@ -5126,13 +4693,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
 
       (
           'Giant Slayer Scimitar',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -5142,7 +4707,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Finesse, Light, Nick',
-          null,
           'rare',
           null,
 
@@ -5162,12 +4726,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Shortsword',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -5177,7 +4739,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn',
           'Bonus: Magic, Damage: Additional, Prone, Damage, Combat, Finesse, Light, Vex',
-          null,
           'rare',
           null,
 
@@ -5197,12 +4758,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Trident',
-          1,
           '4 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5212,7 +4771,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Thrown, Versatile, Topple',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5232,12 +4790,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Warhammer',
-          1,
           '5 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5247,7 +4803,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Versatile, Push',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5267,12 +4822,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer War Pick',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5282,7 +4835,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Versatile, Sap',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5302,12 +4854,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Whip',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5317,7 +4867,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Magic, Damage: Additional, Damage, Combat, Finesse, Reach, Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5337,12 +4886,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Blowgun',
-          1,
           '1 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5352,7 +4899,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Ammunition, Loading, Range, Vex',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5372,12 +4918,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Hand Crossbow',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5387,7 +4931,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Ammunition, Light, Loading, Range, Vex',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5407,13 +4950,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
 
       (
           'Giant Slayer Heavy Crossbow',
-          1,
           '18 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5423,7 +4964,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Ammunition, Heavy, Loading, Range, Two-Handed, Push',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5443,13 +4983,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
 
       (
           'Giant Slayer Longbow',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5459,7 +4997,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Ammunition, Heavy, Range, Two-Handed, Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5479,12 +5016,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Musket',
-          1,
           '10 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5494,7 +5029,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Loading, Range, Two-Handed, Ammunition (Firearms), Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5514,13 +5048,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
 
       (
           'Giant Slayer Pistol',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5530,7 +5062,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Loading, Range, Ammunition (Firearms), Vex',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5550,12 +5081,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Automatic Rifle',
-          1,
           '8 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5565,7 +5094,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Burst Fire, Reload, Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5585,12 +5113,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Hunting Rifle',
-          1,
           '8 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5600,7 +5126,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5620,12 +5145,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Revolver',
-          1,
           '3 lb',
           null,
           'ou gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5635,7 +5158,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Sap',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5655,12 +5177,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Semiautomatic Pistol',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5670,7 +5190,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Vex',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5690,12 +5209,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Shotgun',
-          1,
           '7 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5705,7 +5222,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Push',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5725,12 +5241,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Antimatter Rifle',
-          1,
           '10 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5740,7 +5254,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Sap',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5760,12 +5273,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Giant Slayer Laser Pistol ',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5775,7 +5286,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage: Additional, Damage, Combat, Range, Ammunition (Firearms), Reload, Vex',
-          'Dungeon Master’s Guide, pg. 264',
           'rare',
           null,
 
@@ -5795,11 +5305,9 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       ('Giant Slayer Laser Rifle',
-       1,
        '7 lb',
        null,
        'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -5810,7 +5318,6 @@ VALUES(
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.
                 Note: Bonus: Magic, Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
        'Bonus: Magic, Damage: Additional, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
-       'Dungeon Master’s Guide, pg. 264',
        'rare',
        null,
        true,
@@ -5819,19 +5326,19 @@ VALUES(
        null,
        false,
        null,
+
        '100 ft/300 ft range',
        '3d8+1',
        'radiant',
        'Ammunition (Firearms), Range, Reload, Two-Handed, Slow',
        null,
+
        null,
        null,
-       null,
-       17
+       null
       ),
       (
        'Dragon Slayers',
-       1,
        null,
        null,
        'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -5845,7 +5352,6 @@ VALUES(
             | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
             | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
        'bonus: magic, damage: additional, damage, combat, finesse',
-       null,
        'rare',
        null,
 
@@ -5865,12 +5371,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Dragon Slayer Dragon Slayer Greatsword',
-          1,
           '6 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -5882,10 +5386,9 @@ VALUES(
           'Bonus: Magic, Damage: Additional, Damage, Combat, Heavy, Two-Handed, Graze',
           'rare',
           null,
-          null,
+          true,
 
           true,
-          false,
           false,
           null,
           false,
@@ -5900,12 +5403,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Dragon Slayer Longsword',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -5917,13 +5418,13 @@ VALUES(
           'Bonus: Magic, Damage: Additional, Damage, Combat, Versatile, Sap',
           'rare',
           null,
-          null,
 
           true,
           false,
           false,
           null,
           false,
+
           null,
 
           '5 ft',
@@ -5931,16 +5432,13 @@ VALUES(
           'slashing',
           'Versatile (1d10), Sap',
           null,
-
-          null,
           null,
 
           null,
-          5
+          null
       ),
       (
           'Dragon Slayer Rapier',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -5952,10 +5450,9 @@ VALUES(
           'Bonus: Magic, Damage: Additional, Damage, Combat, Finesse, Vex',
           'rare',
           null,
-          null,
+          true,
 
           true,
-          false,
           false,
           null,
           false,
@@ -5968,14 +5465,12 @@ VALUES(
           null,
 
           null,
-          null
-          ,
           null,
-          5
+
+          null
       ),
       (
           'Dragon Slayer Scimitar',
-          1,
           '3 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -5987,10 +5482,9 @@ VALUES(
           'Bonus: Magic, Damage: Additional, Damage, Combat, Finesse, Light, Nick',
           'rare',
           null,
-          null,
+          true,
 
           true,
-          false,
           false,
           null,
           false,
@@ -6003,14 +5497,11 @@ VALUES(
           null,
 
           null,
-          null
-          ,
           null,
-          5
+          null
       ),
       (
           'Dragon Slayer Shortsword',
-          1,
           '2 lb',
           null,
           'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -6022,10 +5513,9 @@ VALUES(
           'Bonus: Magic, Damage: Additional, Damage, Combat, Finesse, Light, Vex',
           'rare',
           null,
-          null,
+          true,
 
           true,
-          false,
           false,
           null,
           false,
@@ -6040,19 +5530,16 @@ VALUES(
           null,
           null
           ,
-          null,
-          5
+          null
       ),
       (
        'Staff of Fire',
-       1,
        null,
        null,
        'You have resistance to fire damage while you hold this staff.
             The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: burning hands (1 charge), fireball (3 charges), or wall of fire (4 charges).
             The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.',
        'Resistance: Fire, Druid, Sorcerer, Warlock, or Wizard, Damage, Control, Combat, Warding',
-       'Dungeon Master’s Guide, pg. 307',
        'very rare',
        null,
 
@@ -6072,12 +5559,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Nine Lives Stealer''s',
-       1,
        null,
        null,
        'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6139,7 +5624,6 @@ VALUES(
             | Laser Pistol | 3d6 Radiant | Ammunition (Range 40/120; Energy Cell), Reload (50 shots) | Vex |
             | Laser Rifle | 3d8 Radiant | Ammunition (Range 100/300; Energy Cell), Reload (30 shots), Two-Handed |',
        'Note: Bonus: Magic, Damage, Combat, Versatile, Sap',
-       null,
        'very rare',
        null,
 
@@ -6159,12 +5643,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Nine Lives Stealer Club',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6174,7 +5656,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Light, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6194,12 +5675,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Dagger',
-          1,
           '1 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6209,7 +5688,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn',
           'Bonus: Magic, Damage, Combat, Finesse, Light, Thrown, Nick',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6229,12 +5707,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Greatclub',
-          1,
           '10 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6244,7 +5720,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Magic, Damage, Combat, Two-Handed, Push',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6264,12 +5739,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Handaxe',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6279,7 +5752,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Light, Thrown, Vex',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6299,12 +5771,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Javelin',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6314,7 +5784,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Thrown, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6334,12 +5803,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Light Hammer',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6349,7 +5816,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage, Combat, Light, Thrown, Nick',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6369,12 +5835,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Mace',
-          1,
           '4 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6384,7 +5848,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Sap',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6404,12 +5867,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Quarterstaff',
-          1,
           '4 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6419,7 +5880,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Bonus: Magic, Damage, Combat, Versatile, Topple',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6439,12 +5899,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Sickle',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6454,7 +5912,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage, Combat, Light, Nick',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6474,12 +5931,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Spear',
-          1,
           '3 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6489,7 +5944,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Thrown, Versatile, Sap',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6509,12 +5963,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Dart',
-          1,
           '0.25 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6524,7 +5976,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Finesse, Thrown, Vex',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6544,12 +5995,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Light Crossbow',
-          1,
           '5 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6559,7 +6008,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Ammunition, Loading, Range, Two-Handed, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6579,13 +6027,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Shortbow',
-          1,
-          '',
+          null,
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
                 Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
@@ -6594,7 +6040,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Ammunition, Range, Two-Handed, Vex',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6614,13 +6059,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Sling',
-          1,
-          '',
+          null,
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
                 Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
@@ -6629,7 +6072,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Ammunition, Range, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6649,12 +6091,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Battleaxe',
-          1,
           '4 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6664,7 +6104,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Bonus: Magic, Damage, Combat, Versatile, Topple',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6684,12 +6123,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Flail',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6699,7 +6136,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Sap',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6719,12 +6155,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Glaive',
-          1,
           '6 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6734,7 +6168,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Bonus: Magic, Damage, Combat, Heavy, Reach, Two-Handed, Graze',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6754,12 +6187,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Greataxe',
-          1,
           '7 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6769,7 +6200,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage, Combat, Heavy, Two-Handed, Cleave',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6789,12 +6219,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Greatsword',
-          1,
           '6 lb',
           null,
           'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
@@ -6804,7 +6232,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Bonus: Magic, Damage, Combat, Heavy, Two-Handed, Graze',
-          null,
           'very rare',
           null,
 
@@ -6824,12 +6251,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Halberd',
-          1,
           '6 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6839,7 +6264,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Cleave. If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage, Combat, Heavy, Reach, Two-Handed, Cleave',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6859,12 +6283,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Lance',
-          1,
           '6 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6874,7 +6296,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Bonus: Magic, Damage, Combat, Heavy, Reach, Two-Handed, Topple',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6894,12 +6315,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Longsword',
-          1,
           '3 lb',
           null,
           'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
@@ -6909,7 +6328,6 @@ VALUES(
            This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
            Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Versatile, Sap',
-          null,
           'very rare',
           null,
 
@@ -6929,12 +6347,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Maul',
-          1,
           '10 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6944,7 +6360,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Bonus: Magic, Damage, Combat, Heavy, Two-Handed, Topple',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6964,12 +6379,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Morningstar',
-          1,
           '4 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -6979,7 +6392,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Sap',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -6999,12 +6411,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Pike',
-          1,
           '18 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7014,7 +6424,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage, Combat, Heavy, Reach, Two-Handed, Push',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7034,12 +6443,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Rapier',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
@@ -7049,7 +6456,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Finesse, Vex',
-          null,
           'very rare',
           null,
 
@@ -7069,12 +6475,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Scimitar',
-          1,
           '3 lb',
           null,
           'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
@@ -7084,7 +6488,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage, Combat, Finesse, Light, Nick',
-          null,
           'very rare',
           null,
 
@@ -7104,12 +6507,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Shortsword',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack and damage rolls made with this magic weapon.
@@ -7119,7 +6520,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Finesse, Light, Vex',
-          null,
           'very rare',
           null,
 
@@ -7139,12 +6539,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Trident',
-          1,
           '4 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7154,7 +6552,6 @@ VALUES(
             This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
             Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'Bonus: Magic, Damage, Combat, Thrown, Versatile, Topple',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7174,12 +6571,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Warhammer',
-          1,
           '5 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7189,7 +6584,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage, Combat, Versatile, Push',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7209,12 +6603,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer War Pick',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7224,7 +6616,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Versatile, Sap',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7244,12 +6635,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Whip',
-          1,
           '3 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7259,7 +6648,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Finesse, Reach, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7279,12 +6667,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Blowgun',
-          1,
           '1 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7294,7 +6680,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Ammunition, Loading, Range, Vex',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7314,12 +6699,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Hand Crossbow',
-          1,
           '3 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7329,7 +6712,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Ammunition, Light, Loading, Range, Vex',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7349,12 +6731,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Heavy Crossbow',
-          1,
           '18 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7364,7 +6744,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage, Combat, Ammunition, Heavy, Loading, Range, Two-Handed, Push',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7384,13 +6763,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Longbow',
-          1,
-          '',
+          null,
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
                 Life Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.
@@ -7399,7 +6776,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'onus: Magic, Damage, Combat, Ammunition, Heavy, Range, Two-Handed, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7419,12 +6795,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Musket',
-          1,
           '10 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7434,7 +6808,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Loading, Range, Two-Handed, Ammunition (Firearms), Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7454,12 +6827,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Pistol',
-          1,
           '3 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7469,7 +6840,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Loading, Range, Ammunition (Firearms), Vex',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7489,12 +6859,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Automatic Rifle',
-          1,
           '8 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7504,7 +6872,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Burst Fire, Reload, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7524,12 +6891,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Hunting Rifle',
-          1,
           '8 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7539,7 +6904,6 @@ VALUES(
             This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
             Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7559,12 +6923,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Revolver',
-          1,
           '3 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7574,7 +6936,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Range, Ammunition (Firearms), Reload, Sap',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7594,12 +6955,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Semiautomatic Pistol',
-          1,
           '3 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7609,7 +6968,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Range, Ammunition (Firearms), Reload, Vex',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7629,12 +6987,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Shotgun',
-          1,
           '7 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7644,7 +7000,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Push. If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.',
           'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Push',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7664,12 +7019,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Antimatter Rifle',
-          1,
           '10 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7679,7 +7032,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Sap',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7699,12 +7051,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Laser Pistol',
-          1,
           '2 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7714,7 +7064,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Range, Ammunition (Firearms), Reload, Vex',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7734,12 +7083,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Nine Lives Stealer Laser Rifle',
-          1,
           '7 lb',
           null,
           'You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.
@@ -7749,7 +7096,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
           'Bonus: Magic, Damage, Combat, Range, Two-Handed, Ammunition (Firearms), Reload, Slow',
-          'Dungeon Master’s Guide, pg. 281',
           'very rare',
           null,
 
@@ -7769,12 +7115,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
        'Swords of Wounding',
-       1,
        null,
        null,
        'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -7789,7 +7133,6 @@ VALUES(
             | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
             | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
        'Damage: Necrotic, Damage, Combat',
-       'Basic Rules (2014), pg. 207',
        'rare',
        null,
 
@@ -7809,12 +7152,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Greatsword of Wounding',
-          1,
           '6 lb',
           null,
           'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -7824,7 +7165,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Damage: Necrotic, Damage, Combat, Heavy, Two-Handed, Graze',
-          null,
           'rare',
           null,
 
@@ -7844,12 +7184,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Longsword of Wounding',
-          1,
           '3 lb',
           null,
           'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -7859,7 +7197,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage: Necrotic, Damage, Combat, Versatile, Sap',
-          null,
           'rare',
           null,
 
@@ -7879,12 +7216,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Rapier of Wounding',
-          1,
           '2 lb',
           null,
           'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -7894,7 +7229,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Necrotic, Damage, Combat, Finesse, Vex',
-          null,
           'rare',
           null,
 
@@ -7914,12 +7248,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Scimitar of Wounding',
-          1,
           '3 lb',
           null,
           'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -7929,7 +7261,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Damage: Necrotic, Damage, Combat, Finesse, Light, Nick',
-          null,
           'rare',
           null,
 
@@ -7949,12 +7280,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Shortsword of Wounding',
-          1,
           '2 lb',
           null,
           'Hit points lost to this weapon''s damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.
@@ -7964,7 +7293,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage: Necrotic, Damage, Combat, Finesse, Light, Vex',
-          null,
           'rare',
           null,
 
@@ -7984,12 +7312,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Frost Brand',
-       1,
        null,
        null,
        'When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.
@@ -8006,7 +7332,6 @@ VALUES(
                 | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
                 | Shortsword | Martial Melee | 1d6 piercing	 | Finesse, light |',
        'Damage: Cold, Resistance: Fire, Damage, Combat, Versatile, Sap',
-       'Basic Rules (2014), pg. 171',
        'very rare',
        null,
 
@@ -8026,12 +7351,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Frost Brand Greatsword',
-          1,
           '6 lb',
           null,
           'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
@@ -8044,8 +7367,6 @@ VALUES(
           'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Heavy, Two-Handed, Graze',
           'very rare',
           null,
-          null,
-
           true,
           false,
           false,
@@ -8062,12 +7383,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Frost Brand Longsword',
-          1,
           '3 lb',
           null,
           'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
@@ -8080,8 +7399,6 @@ VALUES(
           'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Versatile, Sap',
           'very rare',
           null,
-          null,
-
           true,
           false,
           false,
@@ -8098,12 +7415,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Frost Brand Rapier',
-          1,
           '2 lb',
           null,
           'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
@@ -8116,8 +7431,6 @@ VALUES(
           'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Finesse, Vex',
           'very rare',
           null,
-          null,
-
           true,
           false,
           false,
@@ -8134,12 +7447,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Frost Brand Scimitar',
-          1,
           '3 lb',
           null,
           'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
@@ -8152,8 +7463,6 @@ VALUES(
           'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Finesse, Light, Nick',
           'very rare',
           null,
-          null,
-
           true,
           false,
           false,
@@ -8170,12 +7479,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Frost Brand Shortsword',
-          1,
           '2 lb',
           null,
           'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
@@ -8188,8 +7495,6 @@ VALUES(
           'Damage: Cold, Resistance: Fire, Damage, Combat, Warding, Finesse, Light, Vex',
           'very rare',
           null,
-          null,
-
           true,
           false,
           false,
@@ -8206,12 +7511,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Frost Brand Glaive',
-          1,
           '6 lb',
           null,
           'When you hit with an attack roll using this magic weapon, the target takes an extra 1d6 Cold damage. In addition, while you hold the weapon, you have Resistance to Fire damage.
@@ -8224,8 +7527,6 @@ VALUES(
           'Damage: Cold, Resistance: Fire, Heavy, Reach, Two-Handed, Graze',
           'Dungeon Master’s Guide, pg. 263',
           'very rare',
-          null,
-
           true,
           false,
           false,
@@ -8242,12 +7543,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
        'Wand of Enemy Detection',
-       1,
        null,
        null,
        'This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, invisible, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.
@@ -8255,8 +7554,6 @@ VALUES(
        'Detection',
        'Dungeon Master’s Guide, pg. 319',
        'rare',
-       null,
-
        true,
        true,
        false,
@@ -8273,19 +7570,16 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Crossbow Bolts',
-       1,
        '1.5 lb',
        '1 gp',
        'Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -8303,12 +7597,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Staff of Thunder and Lightning',
-       1,
        null,
        null,
        'This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. It also has the following additional properties. When one of these properties is used, it can''t be used again until the next dawn.
@@ -8318,7 +7610,6 @@ VALUES(
                 *Thunderclap.* You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes deafened for 1 minute. On a successful save, a creature takes half damage and isn''t deafened.
                 *Thunder and Lightning.* You can use an action to use the Lightning Strike and Thunderclap properties at the same time. Doing so doesn''t expend the daily use of those properties, only the use of this one.',
        'Bonus: Magic, Deafened, Stunned, Damage, Control, Debuff, Combat',
-       'Dungeon Master’s Guide, pg. 311',
        'very rare',
        null,
 
@@ -8338,12 +7629,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Rod of Lordly Might',
-       1,
        null,
        null,
        'This rod has a flanged head, and it functions as a magic Mace that grants a +3 bonus to attack rolls and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft. It has three other properties as well, detailed below.
@@ -8358,7 +7647,6 @@ VALUES(
             *Paralyze.* When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target has the Paralyzed condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on a success. Once used, this property can’t be used again until the next dawn.
             *Terrify.* While holding the rod, you can take a Magic action to force each creature you can see within 30 feet of yourself to make a DC 17 Wisdom saving throw. On a failed save, a target has the Frightened condition for 1 minute. A Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success. Once used, this property can’t be used again until the next dawn.',
        'Bonus: Magic, Damage: Necrotict',
-       'Dungeon Master’s Guide, pg. 300',
        'legendary',
        null,
 
@@ -8378,19 +7666,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Wand of Fear',
-       1,
        null,
        null,
        'This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
             *Command.* While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the command spell (save DC 15).
             *Cone of Fear.* While holding the wand, you can use an action to expend 2 charges, causing the wand''s tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. While it is frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can''t willingly move to a space within 30 feet of you. It also can''t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.',
        'Frightened, Control',
-       'Basic Rules (2014), pg. 210',
        'rare',
        null,
 
@@ -8410,17 +7695,14 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Wand of Secrets',
-       1,
        null,
        null,
        'The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn.',
        'Detection',
-       'Dungeon Master’s Guide, pg. 322',
        'uncommon',
        null,
 
@@ -8440,12 +7722,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Hammer of Thunderbolts',
-       1,
        '10 lb',
        null,
        'You gain a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -8456,7 +7736,6 @@ VALUES(
             This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
             Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
        'tacking Bonus: Strength Score, Bonus: Magic, Bonus: Ability Score Maximum, Damage, Buff, Combat, Heavy, Two-Handed, Topple',
-       'Basic Rules (2014), pg. 173',
        'legendary',
        null,
 
@@ -8476,16 +7755,13 @@ VALUES(
        null,
        null,
 
-       null,
-       53
+       null
       ),
       (
        'Wooden Staff',
-       1,
        '4 lb',
        '5 gp',
        'A druid can use a Wooden Staff as a spellcasting focus, as described in the Spellcasting section.',
-       null,
        null,
        null,
        null,
@@ -8506,12 +7782,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Wand of the War Mage',
-       1,
        null,
        null,
        'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.
@@ -8521,7 +7795,6 @@ VALUES(
                 | Rare | +2 |
                 | Very Rare | +3 |',
        'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
-       'Dungeon Master’s Guide, pg. 212',
        'varies',
        null,
 
@@ -8541,18 +7814,15 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Wand of Fireballs',
-       1,
        null,
        null,
        'This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the fireball spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
                 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
        'Spellcaster, Damage, Combat',
-       'Dungeon Master’s Guide, pg. 319',
        'rare',
        null,
 
@@ -8572,18 +7842,15 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Staff of Withering',
-       1,
        null,
        null,
        'This staff has 3 charges and regains 1d3 expended charges daily at dawn.
             The staff can be wielded as a magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff , and you can expend 1 charge to deal an extra 2d10 Necrotic damage to the target and force it to make a DC 15 Constitution saving throw. On a failed save, the target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.',
        'Damage: Necrotic, Cleric, Druid, or Warlock, Damage, Debuff, Combat',
-       'Dungeon Master’s Guide, pg. 205',
        'very rare',
        null,
 
@@ -8603,12 +7870,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Arrows',
-       1,
        '1 lb',
        '1 gp',
        '*Bundle Size:* 20
@@ -8616,7 +7881,6 @@ VALUES(
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -8634,12 +7898,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Wand of Paralysis',
-       1,
        null,
        null,
        'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. At the end of each of the target''s turns, it can repeat the saving throw, ending the effect on itself on a success.
@@ -8647,8 +7909,6 @@ VALUES(
        'Paralyzed, Spellcaster, Control, Debuff',
        'Dungeon Master’s Guide, pg. 321',
        'rare',
-       null,
-
        true,
        true,
        false,
@@ -8665,17 +7925,14 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Mace of Terror',
-       1,
        '4 lb',
        null,
        'This magic weapon has 3 charges and regains 1d3 expended charges daily at dawn. While holding the weapon, you can take a Magic action and expend 1 charge to release a wave of terror from it. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the Frightened condition for 1 minute. While Frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can’t make Opportunity Attacks. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the Dodge action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success.',
        'frightened, damage, control, debuff, combat',
-       'Dungeon Master’s Guide, pg. 276',
        'rare',
        null,
 
@@ -8695,19 +7952,16 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Arrow of Slaying',
-       1,
        null,
        null,
        'An arrow of slaying is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both arrows of dragon slaying and arrows of blue dragon slaying. If a creature belonging to the type, race, or group associated with an arrow of slaying takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.
             Once an arrow of slaying deals its extra damage to a creature, it becomes a nonmagical arrow.
             Other types of magic ammunition of this kind exist, such as bolts of slaying meant for a crossbow, though arrows are most common.',
        'Damage: Piercing, Damage, Combat, Bane',
-       null,
        'very rare',
        null,
 
@@ -8727,18 +7981,15 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Wand of Lightning Bolts',
-       1,
        null,
        null,
        'This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the lightning bolt spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
             *Regaining Charges.* The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
        'Spellcaster, Damage, Combat',
-       'Dungeon Master’s Guide, pg. 320',
        'rare',
        null,
 
@@ -8758,18 +8009,15 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Wand of Web',
-       1,
        null,
        null,
        'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the web spell (save DC 15) from it.
             The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
        'spellcaster, control',
-       'Dungeon Master’s Guide, pg. 322',
        'uncommon',
        null,
 
@@ -8789,19 +8037,16 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Lance',
-       1,
        '6 lb',
        '10 gp',
        'Proficiency with a Lance allows you to add your proficiency bonus to the attack roll for any attack you make with it. A Lance requires two hands to wield when you aren''t mounted.
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
        'bonus: magic, damage, combat, reach, special',
-       null,
        null,
        null,
 
@@ -8821,12 +8066,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
           'Lance, +1',
-          1,
           '6 lb',
           null,
           'You have a +1 bonus to attack and damage rolls made with this magic weapon.
@@ -8834,7 +8077,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'bonus: magic, damage, combat, reach, special',
-          null,
           null,
           null,
 
@@ -8854,12 +8096,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Lance, +2',
-          1,
           '6 lb',
           null,
           'You have a +2 bonus to attack and damage rolls made with this magic weapon.
@@ -8867,7 +8107,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'bonus: magic, damage, combat, reach, special',
-          null,
           null,
           null,
 
@@ -8887,13 +8126,11 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
 
       (
           'Lance, +3',
-          1,
           '6 lb',
           null,
           'You have a +3 bonus to attack and damage rolls made with this magic weapon.
@@ -8901,7 +8138,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Topple. If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.',
           'bonus: magic, damage, combat, reach, special',
-          null,
           null,
           null,
 
@@ -8921,18 +8157,15 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
        'Wand of Polymorph',
-       1,
        null,
        null,
        'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the polymorph spell (save DC 15) from it.
             The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
        'Spellcaster, Control, Shapechanging',
-       'Dungeon Master’s Guide, pg. 321',
        'very rare',
        null,
 
@@ -8952,19 +8185,16 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Ram, Portable',
-       1,
        '35 lb',
        '4 gp',
        'You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -8982,19 +8212,16 @@ VALUES(
        null,
        null,
 
-       null,
-       53
+       null
       ),
       (
        'Hammer',
-       1,
        '3 lb',
        '1 gp',
        'This one-handed hammer with an iron head is useful for pounding pitons into a wall.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -9012,19 +8239,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Hammer, Sledge',
-       1,
        '10 lb',
        '2 gp',
        'This two-handed, iron-headed hammer is good for smashing open treasure chests.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -9042,19 +8266,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Dagger of Venom',
-       1,
        '1 lb',
        null,
        'You gain a +1 bonus to attack and damage rolls made with this magic weapon. You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 poison damage and become poisoned for 1 minute. The dagger can''t be used this way again until the next dawn. Proficiency with a Dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.
         ---
         This weapon has the following mastery property. To use this property, you must have a feature that lets you use it. Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
        'Damage: Poison, Bonus: Magic, Poisoned, Damage, Debuff, Combat, Finesse, Light, Thrown, Nick',
-       'Dungeon Master’s Guide, pg. 248',
        'rare',
        null,
 
@@ -9074,19 +8295,16 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Sling Bullets',
-       1,
        '1 1/2 lb',
        '4 cp',
        'Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -9104,19 +8322,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Quiver',
-       1,
        '1 lb',
        '1 gp',
        'A quiver can hold up to 20 arrows.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -9134,19 +8349,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Staff of Charming',
-       1,
        null,
        null,
        'While holding this staff, you can use an action to expend 1 of its 10 charges to cast charm person, command, or comprehend languages from it using your spell save DC. The staff can also be used as a magic quarterstaff.
             If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You can''t use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff''s intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
             The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.',
        'Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard, Control, Communication',
-       'Dungeon Master’s Guide, pg. 307',
        'rare',
        null,
 
@@ -9166,12 +8378,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Wand of Wonder',
-       1,
        null,
        null,
        'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll d100 and consult the following table to discover what happens.
@@ -9203,7 +8413,6 @@ VALUES(
                 | 96-97 | The target''s skin turns bright blue for 1d10 days. If you chose a point in space, the creature nearest to that point is affected. |
                 | 98-00 | If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn''t target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly petrified. On any other failed save, the target is restrained and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the greater restoration spell or similar magic. |',
        'Petrified, Spellcaster, Damage, Control, Utility, Combat, Deception',
-       'Dungeon Master’s Guide, pg. 322',
        'rare',
        null,
 
@@ -9223,12 +8432,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Mace of Smiting',
-       1,
        null,
        null,
        'You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. The bonus increases to +3 when you use the weapon to attack a Construct.
@@ -9238,7 +8445,6 @@ VALUES(
             This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
             *Sap.* If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
        'Bonus: Magic, Damage, Combat, Bane, Sap',
-       'Dungeon Master’s Guide, pg. 179',
        'rare',
        null,
 
@@ -9258,12 +8464,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Staff of Healing',
-       1,
        null,
        null,
        'This staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spellcasting ability modifier. The table indicates how many charges you must expend to cast the spell.
@@ -9275,7 +8479,6 @@ VALUES(
                 | Mass Cure Wounds | 5 |
                 *Regaining Charges.* The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff vanishes in a flash of light, lost forever.',
        'Bard, Cleric, or Druid, Healing',
-       'Dungeon Master’s Guide, pg. 308',
        'rare',
        null,
 
@@ -9295,12 +8498,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Dancing Swords',
-       1,
        null,
        null,
        'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
@@ -9317,7 +8518,6 @@ VALUES(
             | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
             | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
        'Damage, Combat',
-       'Dungeon Master’s Guide, pg. 161',
        'very rare',
        null,
 
@@ -9337,12 +8537,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
           'Dancing Greatsword',
-          1,
           '6 lb',
           null,
           'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
@@ -9353,7 +8551,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Damage, Combat, Heavy, Two-Handed, Graze',
-          null,
           'very rare',
           null,
 
@@ -9373,12 +8570,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Dancing Longsword',
-          1,
           '3 lb',
           null,
           'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
@@ -9389,7 +8584,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Damage, Combat, Versatile, Sap',
-          null,
           'very rare',
           null,
 
@@ -9409,12 +8603,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Dancing Rapier',
-          1,
           '2 lb',
           null,
           'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
@@ -9425,7 +8617,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage, Combat, Finesse, Vex',
-          null,
           'very rare',
           null,
 
@@ -9445,12 +8636,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Dancing Scimitar',
-          1,
           '3 lb',
           null,
           'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
@@ -9461,7 +8650,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Damage, Combat, Finesse, Light, Nick',
-          null,
           'very rare',
           null,
 
@@ -9481,12 +8669,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Dancing Shortsword',
-          1,
           '2 lb',
           null,
           'You can take a Bonus Action to toss this magic weapon into the air. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of itself. The weapon uses your attack roll and adds your ability modifier to damage rolls.
@@ -9497,7 +8683,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Damage, Combat, Finesse, Light, Vex',
-          null,
           'very rare',
           null,
 
@@ -9517,12 +8702,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
        'Javelin of Lightning',
-       1,
        '2 lb',
        null,
        'This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage.
@@ -9532,7 +8715,6 @@ VALUES(
             This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
             Slow. If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn’t exceed 10 feet.',
        'damage: lightning, damage, combat, thrown',
-       'Dungeon Master’s Guide, pg. 275',
        'uncommon',
        null,
 
@@ -9552,17 +8734,14 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Wand of the War Mage, +1',
-       1,
        null,
        null,
        'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
        'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
-       null,
        'uncommon',
        null,
 
@@ -9582,17 +8761,14 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
           'Wand of the War Mage, +2',
-          1,
           null,
           null,
           'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
           'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
-          null,
           'rare',
           null,
 
@@ -9612,17 +8788,14 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Wand of the War Mage, +3',
-          1,
           null,
           null,
           'While holding this wand, you gain a bonus to spell attack rolls determined by the wand’s rarity. In addition, you ignore Half Cover when making a spell attack roll.',
           'Bonus: Spell Attacks, Spellcaster, Buff, Combat',
-          null,
           'very rare',
           null,
 
@@ -9642,12 +8815,10 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
        'Sun Blade',
-       1,
        '3 lb',
        null,
        'This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the sun blade.
@@ -9658,7 +8829,6 @@ VALUES(
             This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
             Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
        'Bonus: Magic, Damage: Radiant, Replace Damage Type: Radiant, Weapon Property: Finesse, Damage, Combat, Versatile, Sap',
-       'Basic Rules (2014), pg. 205',
        'rare',
        null,
 
@@ -9678,12 +8848,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
        'Dagger',
-       1,
        '1 lb',
        '2 gp',
        'Proficiency with a Dagger allows you to add your proficiency bonus to the attack roll for any attack you make with it.
@@ -9697,7 +8865,6 @@ VALUES(
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -9715,17 +8882,14 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Longsword, +1',
-       1,
        '3 lb',
        null,
        'You have a +1 bonus to attack and damage rolls made with this magic weapon.',
        'bonus: magic, damage, combat, versatile',
-       null,
        'uncommon',
        null,
 
@@ -9745,17 +8909,14 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       ),
       (
           'Longsword, +2',
-          1,
           '3 lb',
           null,
           'You have a +2 bonus to attack and damage rolls made with this magic weapon.',
           'bonus: magic, damage, combat, versatile',
-          null,
           'uncommon',
           null,
 
@@ -9775,17 +8936,14 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
           'Longsword, +3',
-          1,
           '3 lb',
           null,
           'You have a +3 bonus to attack and damage rolls made with this magic weapon.',
           'bonus: magic, damage, combat, versatile',
-          null,
           'uncommon',
           null,
 
@@ -9805,19 +8963,16 @@ VALUES(
           null,
           null,
 
-          null,
-          17
+          null
       ),
       (
        'Staff',
-       1,
        '4 lb',
        '5 gp',
        'An Arcane Focus is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -9835,12 +8990,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Staff of Power',
-       1,
        null,
        null,
        'This staff has 20 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.
@@ -9860,7 +9013,6 @@ VALUES(
             Regaining Charges. The staff regains 2d8 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff retains its +2 bonus to attack rolls and damage rolls but loses all other properties. On a 20, the staff regains 1d8 + 2 charges.
             Retributive Strike. You can take a Magic action to break the staff over your knee or against a solid surface. The staff is destroyed and releases its magic in an explosion that fills a 30-foot Emanation originating from itself. You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take Force damage equal to 16 times the number of charges in the staff . Each other creature in the area makes a DC 17 Dexterity saving throw. On a failed save, a creature takes Force damage equal to 4 times the number of charges in the staff . On a successful save, a creature takes half as much damage.',
        'Bonus: Magic, Bonus: Armor Class, Bonus: Saving Throws, Bonus: Spell Attacks, Sorcerer, Warlock,',
-       'Dungeon Master’s Guide, pg. 308',
        'very rare',
        null,
 
@@ -9880,13 +9032,10 @@ VALUES(
        null,
        null,
 
-       null,
-       17
-
+       null
       ),
       (
        'Defender',
-       1,
        null,
        null,
        'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
@@ -9902,7 +9051,6 @@ VALUES(
             | Scimitar | Martial Melee | 1d6 slashing | Finesse, light |
             | Shortsword | Martial Melee | 1d6 piercing | Finesse, light |',
        'Bonus: Magic, Damage, Combat, Warding, Versatile, Sap',
-       'Basic Rules (2014), pg. 164',
        'legendary',
        null,
 
@@ -9922,12 +9070,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
           'Defender Greatsword',
-          1,
           '6 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
@@ -9937,7 +9083,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Graze. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.',
           'Bonus: Magic, Damage, Combat, Warding, Heavy, Two-Handed, Graze',
-          null,
           'legendary',
           null,
 
@@ -9957,12 +9102,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Defender Longsword',
-          1,
           '3 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
@@ -9972,7 +9115,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
           'Bonus: Magic, Damage, Combat, Warding, Versatile, Sap',
-          null,
           'legendary',
           null,
 
@@ -9992,12 +9134,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Defender Rapier',
-          1,
           '2 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
@@ -10007,7 +9147,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Warding, Finesse, Vex',
-          null,
           'legendary',
           null,
 
@@ -10027,12 +9166,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Defender Scimitar',
-          1,
           '3 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
@@ -10042,7 +9179,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Nick. When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.',
           'Bonus: Magic, Damage, Combat, Warding, Finesse, Light, Nick',
-          null,
           'legendary',
           null,
 
@@ -10062,12 +9198,10 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
       (
           'Defender Shortsword',
-          1,
           '2 lb',
           null,
           'You gain a +3 bonus to attack and damage rolls made with this magic weapon.
@@ -10077,7 +9211,6 @@ VALUES(
                 This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
                 Vex. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.',
           'Bonus: Magic, Damage, Combat, Warding, Finesse, Light, Vex',
-          null,
           'legendary',
           null,
 
@@ -10097,19 +9230,16 @@ VALUES(
           null,
           null,
 
-          null,
-          5
+          null
       ),
     (
      'Staff of Striking',
-     1,
      null,
      null,
      'This staff can be wielded as a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it.
             The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 charges. For each charge you expend, the target takes an extra 1d6 Force damage.
             *Regaining Charges.* The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff becomes a nonmagical Quarterstaff.',
      'Bonus: Magic, Damage: Force, Damage, Combat',
-     'Dungeon Master’s Guide, pg. 203',
      'vary rare',
      null,
 
@@ -10129,16 +9259,13 @@ VALUES(
      null,
      null,
 
-     null,
-     17
+     null
       ),
       (
        'Wand',
-       1,
        '1 lb',
        '10 gp',
        'An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in the Spellcasting section.',
-       null,
        null,
        null,
        null,
@@ -10159,19 +9286,16 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Staff of the Python',
-       1,
        null,
        null,
        'You can use an action to speak this staff''s command word and throw the staff on the ground within 10 feet of you. The staff becomes a giant constrictor snake under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.
             On your turn, you can mentally command the snake if it is within 60 feet of you and you aren''t incapacitated. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.
             If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them.',
        'Cleric, Druid, or Warlock, Summoning, Control',
-       'Basic Rules (2014), pg. 204',
        'uncommon',
        null,
 
@@ -10191,18 +9315,15 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Wand of Paralysis',
-       1,
        null,
        null,
        'This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. At the end of each of the target''s turns, it can repeat the saving throw, ending the effect on itself on a success.
             The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand''s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.',
        'Paralyzed, Spellcaster, Control, Debuff',
-       'Basic Rules (2014), pg. 211',
        'rare',
        null,
 
@@ -10222,12 +9343,10 @@ VALUES(
        null,
        null,
 
-       null,
-       5
+       null
       ),
       (
        'Mace of Disruption',
-       1,
        '4 lb',
        null,
        'When you hit a Fiend or an Undead with this magic weapon, that creature takes an extra 2d6 Radiant damage. If the target has 25 Hit Points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature has the Frightened condition until the end of your next turn.
@@ -10237,7 +9356,6 @@ VALUES(
             This weapon has the following mastery property. To use this property, you must have a feature that lets you use it.
             Sap. If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.',
        'Damage: Radiant, Damage, Bane, Sap',
-       'Dungeon Master’s Guide, pg. 179',
        null,
        null,
 
@@ -10257,7 +9375,6 @@ VALUES(
        null,
        null,
 
-       null,
-       17
+       null
       )
 

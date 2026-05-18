@@ -1,4 +1,5 @@
 INSERT INTO items (
+    --                    2, 7 (6), last
     item_name,
     item_ttrpg,
     item_weight,

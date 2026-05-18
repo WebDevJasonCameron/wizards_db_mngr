@@ -1,10 +1,10 @@
-INSERT INTO items (item_name,
-                   item_ttrpg,
+INSERT INTO items (
+    --                    2, 7 (6), last
+                   item_name,
                    item_weight,
                    item_cost,
                    item_description,
                    item_description_notes,
-                   item_source,
                    item_rarity,
                    item_renowned_quality,
 
@@ -24,11 +24,9 @@ INSERT INTO items (item_name,
                    item_armor_class,
                    item_armor_notes,
 
-                   item_image_url,
-                   item_source_id)
+                   item_image_url)
 VALUES (
         'Cartographer''s Tools',
-        1,
         '6 lbs',
         '15 gp',
         '*Ability:* Wisdom
@@ -38,7 +36,6 @@ VALUES (
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -56,19 +53,16 @@ VALUES (
         null,
         null,
 
-        null,
-        53
+        null
        ),
        (
        'Glassblower''s Tools',
-       1,
        '5 lbs',
        '30 gp',
        'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -86,12 +80,10 @@ VALUES (
        null,
        null,
 
-       null,
-       5
+       null
        ),
        (
            'Carpenter''s Tools',
-           1,
            '6 lbs',
            '8 gp',
            '*Ability:* Strength
@@ -102,7 +94,6 @@ VALUES (
            null,
            null,
            null,
-           null,
 
            false,
            false,
@@ -120,12 +111,10 @@ VALUES (
            null,
            null,
 
-           null,
-           5
+           null
        ),
        (
         'Navigator''s Tools',
-        1,
         '2 lbs',
         '25 gp',
         '*Ability:* Wisdom
@@ -135,7 +124,6 @@ VALUES (
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -153,12 +141,10 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Mason''s Tools',
-        1,
         '8 lb',
         '10 gp',
         '*Ability:* Strength
@@ -168,7 +154,6 @@ VALUES (
         null,
         null,
         null,
-        null,
         false,
         false,
         false,
@@ -182,19 +167,16 @@ VALUES (
         null,
         null,
         null,
-        null,
-        53
+        null
        ),
        (
         'Weavers Tools',
-        1,
         '5 lb',
         '1 gp',
         'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -212,19 +194,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Forgery Kit',
-        1,
         '5 lb',
         '15 gp',
         'This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -242,19 +221,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Healer''s Kit',
-        1,
         '3 lb',
         '5 gp',
         'This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -272,19 +248,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Dragonchess Set',
-        1,
         '1/2 lb',
         '1 gp',
         'If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -302,19 +275,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
        'Alchemist''s Supplies',
-       1,
        '8 lb',
        '50 gp',
        'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
        null,
        null,
        null,
-       null,
 
        false,
        false,
@@ -332,19 +302,16 @@ VALUES (
        null,
        null,
 
-       null,
-       5
+       null
        ),
        (
         'Mess Kit',
-        1,
         '1 lb',
         '0.2 gp',
         'This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -362,12 +329,10 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Cobbler''s Tools',
-        1,
         '5 lb',
         '5 gp',
         '*Ability:* Dexterity
@@ -378,7 +343,6 @@ VALUES (
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -396,19 +360,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Thieves'' Tools',
-        1,
         '1 lb',
         '25 gp',
         'This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -426,19 +387,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Block and Tackle',
-        1,
         '5 lb',
         '1 gp',
         'A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -456,19 +414,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Smith''s Tools',
-        1,
         '8 lb',
         '20 gp',
         'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -486,19 +441,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Brewer''s Supplies',
-        1,
         '9 lb',
         '20 gp',
         'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -516,12 +468,10 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Disguise Kit',
-        1,
         '3 lb',
         '25 gp',
         '*Ability:* Charisma
@@ -531,7 +481,6 @@ VALUES (
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -549,17 +498,14 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Woodcarver''s Tools',
-        1,
         null,
         null,
         'While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn''t reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can''t jump farther than your remaining movement would allow.',
         'et: Innate Speed (Walking), Speed Reduction: Remove, Buff, Movement, Utility, Footwear',
-        'Dungeon Master’s Guide, pg. 240',
         'uncommon',
         'Wondrous Item',
 
@@ -579,19 +525,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Painter''s Supplies',
-        1,
         '5 lb',
         '10 gp',
         'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -609,19 +552,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Calligraphy''s Supplies',
-        1,
         '5 lb',
         '10 gp',
         'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -639,12 +579,10 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Tinker''s Tools',
-        1,
         '10 lb',
         '50 gp',
         '*Ability:* Dexterity
@@ -654,7 +592,6 @@ VALUES (
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -672,19 +609,16 @@ VALUES (
         null,
         null,
 
-        null,
-        53
+        null
        ),
        (
         'Shovel',
-        1,
         '5 lb',
         '2 gp',
         'A standard shovel used for digging.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -702,19 +636,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Sealing Wax',
-        1,
         null,
         '5 sp',
         'When you press a signet ring into warm sealing wax, you leave an identifying mark.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -732,19 +663,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Leatherworker''s Tools',
-        1,
         '5 lb',
         '5 gp',
         'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -762,19 +690,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Jeweler''s Tools',
-        1,
         '2 lb',
         '25 gp',
         'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -792,19 +717,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Cook''s Utensils',
-        1,
         '8 lb',
         '1 gp',
         'These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan''s tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan''s tools requires a separate proficiency.',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -822,19 +744,16 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        ),
        (
         'Component Pouch',
-        1,
         '2 lb',
         '25 gp',
         'A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell''s description).',
         null,
         null,
         null,
-        null,
 
         false,
         false,
@@ -852,6 +771,5 @@ VALUES (
         null,
         null,
 
-        null,
-        5
+        null
        )

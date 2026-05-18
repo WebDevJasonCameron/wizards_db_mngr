@@ -27,8 +27,7 @@ CREATE TABLE IF NOT EXISTS items (
                      item_armor_class VARCHAR(255),
                      item_armor_notes TEXT,
 
-                     item_image_url VARCHAR(500),
-                     item_source_id BIGINT
+                     item_image_url VARCHAR(500)
                    );
 
 ALTER SEQUENCE item_seq OWNED BY items.id;
